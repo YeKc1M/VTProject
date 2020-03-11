@@ -1,0 +1,4793 @@
+Expert Chat 2.0 – Accessing Bold360 Web Workspace
+
+Bold360 Agent Workspace 
+
+To access Bold360 Agent 
+Workspace, please follow the 
+steps described here.
+
+Option A: Via BCP
+
+Option B: Via NOW (UI16 only)
+
+Option C: Via Chat Monitor Tool
+
+Step 1
+
+Open Administration menu
+
+Step 2
+
+Click in Bold360 Chat
+
+Step 1
+
+Search for Bold
+
+Step 2
+
+Step 1
+
+Open Chat Monitor Tool
+
+Step 2
+
+Click in External Tools Bold360
+
+Click in Login to Expert Chat
+
+Notes
+
+Latest Chrome Browser should be used to 
+access Bold360 Agent Workspace
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, 
+Chrish H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 2, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+SaE Session Cancel Workflow Overview
+
+Initiated by 
+Customer?
+
+Yes
+
+Customer cancels 
+through booking tool
+
+Cancellation needed
+
+Yes
+
+New 
+
+Engineer 
+found?
+
+No
+
+No
+
+PS Engineer works to find 
+a colleague to handover
+
+PS Engineer follows 
+Handover Process
+
+PS Engineer calls the 
+
+customer with 
+
+cancellation reason and 
+let them know it will be 
+converted to a normal 
+
+Case
+
+PS Engineer cancels 
+
+session in Service Now 
+
+via Appointment and logs 
+
+Internal Info with 
+cancellation reason
+
+Automatic: Assigned PS 
+Engineer availability in 
+
+RCC is freed
+
+Automatic: PS Engineer 
+and customer receive 
+session cancelled email 
+
+notification
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+SaE Session needs to be cancelled (by SAP)
+
+The SaE sessions booked by customer are the highest priority. This should be considered before attempting to cancel or reschedule 
+any sessions.
+1. Make your line manager aware of this situation
+
+2.
+
+If you cannot make the session you have one of two options:
+
+a) Option-1: Work directly with your colleagues and identify an Engineer who can take over the session from you. In this case, ensure all details are 
+
+transferred to the Engineer taking over. Full details for transferring a session to another engineer here.
+
+b) Option-2: Call the customer and inform them of the reason for cancelling the session, offer to cancel the session for them to be worked as a 
+
+normal Case
+
+1. To cancel the session in Service Now, go to the Appointment > Cancel SaE
+
+2.
+
+If prompted with a confirmation, click Yes to proceed with cancellation
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+When to Cancel a SaE session
+
+The SaE sessions booked by customer are the highest priority. This should be considered before attempting to cancel or reschedule 
+any sessions.
+
+Situations when you may need to cancel a session (this list may not include all situations, use best judgement when cancelling a
+session).
+• Customer doesn’t show up to session
+
+• Session is booked for an area where SaE isn’t offered
+
+• Customer requests session be cancelled but does not cancel themselves in the booking tool
+
+• Customer requests increase in priority to high/VH (more details here)
+
+Notes
+
+It is possible to cancel the session in Session Completed status. If the session was not delivered 
+for any reason and the session date/time has passed, you must still cancel session following 
+this process.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Customer Cancel Session
+
+Customers can cancel sessions directly through the booking tool. You will receive a notification that the customer has cancelled the 
+SaE session.
+
+•
+
+•
+
+There will be a Notification in the Activity section mentioning that the appointment has been cancelled by the customer.
+
+The time-slot of Support Engineer will be freed and released in SaE tool as an “available slot”.
+
+• No action from the support engineer is needed on the case.
+
+Notes: 
+
+Manual action for cancelled SaE case – Set to Customer Action
+
+There is an open defect described in STRY0189058. When a customer cancels an SaE case, the customer is NOT set to “Customer Action” status automatically. Until this defect is fixed, please set the 
+cancelled SaE case to Customer action manually by sending a Reply.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Change Log
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Laszlo Dobos, Budapest (Hungary)
+Process owner
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramon Gupta
+
+May 9 2017 
+
+▪
+
+Initial document
+
+1.0.1
+
+Christine Fikany
+
+Jun 8, 2017
+
+▪ Added “Attach KBA 2484024 – Schedule an Expert session has been delivered to the incident…”
+▪ Modified Step 2 – “If SaE is not offered in the component chosen or if you are unable to get an expert on this component” by adding sub steps 3-6
+
+1.0.2
+
+Christine Fikany
+
+Aug 10, 2017
+
+▪ Slide 3 – added a screen shot for accessing RCC settings
+▪ Separated slide 10 into two slides for managing unforeseen events. Added handling sick days and customer requests increase in priority to this slide
+▪ Added new slide 21 – SaE session needs to be cancelled. Removed cancellation process from slide 19.
+▪ Modified reschedule process in slide 20 by removing the comment “send the customer some open times you see in the SaE scheduling option…”
+▪ Modified slide 14 to reflect new cancellation process.
+▪ Added slide 23 for handling sick days.
+▪ Added slide 24 for customer requests increase in priority of session
+
+1.1.0
+
+Christine Fikany
+
+Sep 29, 2017
+
+▪ New “Handover, Rescheduling, and Canceling SaE session” Slide sequence
+▪ Modification to slide 7 – “customer reschedule session”, to add steps for rescheduling if the same processor does not get assigned to the session
+
+1.1.1
+
+Christine Fikany
+
+Oct 26, 2017
+
+▪ Modified slide 9 - To cancel the session in BCP, in read only mode, go to the Routing-> Cancel SaE Session
+
+1.1.2
+
+Christine Fikany
+
+Nov 15, 2017
+
+▪ New Hand over process created – slides 2-7
+
+1.1.3
+
+Christine Fikany
+
+Nov 29, 2017
+
+▪ Slide 4 – removed requirement to notify STMs
+▪ Slide 7 – added hyperlink to QM WIPS
+▪ Slide 8 - deleted
+
+1.1.4
+
+Christine Fikany
+
+Dec 11, 2017
+
+▪ Slide 16 added – The session is not delivered (for any reason by customer or SAP)
+
+2.0.0
+
+Christine Osborn
+
+Mar 13, 2018
+
+▪ Separated SaE Cancelation into own section
+▪ Slide 4– added to list reasons when sessions should be cancelled by SAP 
+
+3.0.0
+
+Leonardo Reginato
+
+Oct 7, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+Status
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Expert Chat 2.0 – Customer Information
+
+SAP Chat Board
+
+Customer Information is displayed in the SAP Chat Board, located at the right frame of Bold360 Agent Workspace.
+
+To have access to SAP Chat 
+Board, please follow the 
+steps described here.
+
+Customer Details on 
+SAP Chat Board 
+contains:
+
+▪ Contract Type
+
+▪ EUDP Flag
+
+▪ Contact/Reporter Info
+
+▪ System Information
+
+▪ And more
+
+Step 1
+
+Step 2
+
+Click on “S” button at the top right menu 
+to display/hide SAP Chat Board. 
+
+Navigate to Customer section. It contains 
+all relevant data necessary for a successful 
+Expert Chat session.
+
+Step 3
+
+Scroll down the Chat Board to the 
+bottom for links to:
+
+Remote Access tool (STFK)
+
+xSearch
+
+Secure Area
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Expert Chat 2.0 – Customer Information
+
+Customer History
+
+All previous Expert Chat interactions from the S-user of your current session are shown in the Customer History panel. 
+
+To have access to SAP Chat 
+Board, please follow the 
+steps described here.
+
+Notes
+
+Due to data protection policies, 
+Expert Chat sessions are 
+automatically removed from 
+Bold360 tool based on our data 
+retention policy.
+
+Step 1
+
+Navigate to Customer History panel on 
+Bold360 Workspace.
+
+Step 1
+
+Click in any interaction to get more information
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 3, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November, 22, 
+2019
+
+▪ Document template update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Expert Chat 2.0 – Process Overview
+
+Expert Chat Process Overview
+
+Customer initiates Expert 
+
+Chat
+
+Create/Update  incident, 
+summarize the session in 
+
+handover memo
+
+No
+
+Warm 
+
+Handover 
+possible?
+
+Yes
+
+No
+
+Incident 
+Open?
+
+Correct 
+Area?
+
+Yes
+
+Warm Handover
+to Correct Area
+
+Verify EUPD flag for 
+
+restrictions
+
+Analyze the issue / Collect 
+
+information / Call to 
+
+customer
+
+Pre-requisites
+
+Follow Initial Setup and WIPS Training
+
+Update the Incident AND 
+
+Offer a Callback
+
+Warm Handover
+
+Yes
+
+No
+
+Incident 
+Assigned?
+
+Yes
+
+Assigned 
+Engineer 
+
+Available on 
+
+Bold360
+
+No
+
+Yes
+
+Create Incident
+
+Yes
+
+Screen sharing
+
+/ remote 
+
+connection?
+
+Session Moderation
+
+Screen sharing / remote 
+
+connection
+
+No
+
+Provide findings / solution
+
+Create/Update Incident
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Analyze the issue / Collect information / Call to Customer
+
+Analyze the issue
+
+A deep dive is not necessary through a Chat session.  Analysis can involve the following:
+
+1. Bug - Error Message -> steps to reproduce to get the error
+
+2. How- To Question (Search for documentation, in WIPS check KM section)
+
+3. New Requirement / Enhancement Request (direct customer to channel / community / Influence and Adopt Portal)
+
+4. During the analysis phase assess every 30 minutes to determine if you are able to resolve issue in the session:
+
+▪ Yes: continue assisting customer and resolve
+
+▪ No: move to Collect Information
+
+Collect information:
+
+Working on complex issues means further analysis will be necessary or development input is required.  These steps cannot be completed during real time interaction with a 
+customer.  Determine what additional information is required to continue your investigation before wrapping up the Chat session:
+
+▪ Steps to reproduce with screenshots / Exact error messages in text form / Performance would have to be captured
+
+▪ Logs and traces generation performed with customer on the session adds value and can be added to summary / action plan
+
+▪ Authorization and Support Access should be checked, it adds value not to have to request these in a “Reply to Customer”, do it now
+
+▪ OnPrem. Engineers also should get an Architecture diagram at this stage to add value (OS / Versions of Products/ 3rd party) 
+
+Please Note
+
+Our goal is to find the correct 
+path to provide the best 
+customer experience , consider 
+best suited channels (if not chat):
+▪ SaE
+▪ Incident
+▪ CIC
+▪ Consulting (SAP Note: 83020)
+
+Analyze the issue / Collect 
+
+information / Call to 
+
+customer
+
+Screen sharing
+
+/ remote 
+
+connection?
+
+Session Moderation
+
+No
+
+Provide findings / solution
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Screen Sharing / Remote Connection
+
+Screen sharing / Remote Connection is applicable for the following situations:
+
+Always create an incident before screen sharing or remote access to customer system since customer bulletin information is not visible in the Expert Chat Board yet.
+
+▪ Based on customer request and no EUDP flag 
+
+▪ It helps to make further understanding of issue easier
+
+▪ With the customer online it is simpler to demonstrate and explain 
+
+▪ Capturing the screenshots and/or logs during chat aids investigation
+
+Is not applicable for the following situations:
+
+▪ Customer bulletin has screen sharing / remote connection restrictions
+
+▪ Customer declines screen sharing / remote connection
+
+▪ EUDP flag set and you are outside EU
+
+▪ Browser restrictions do not allow it or blocked
+
+Please Note
+
+Screenshots must be 
+authorized by the customer
+
+Analyze the issue / Collect 
+
+information / Call to 
+
+customer
+
+Screen sharing
+
+/ remote 
+
+connection?
+
+Session Moderation
+
+No
+
+Provide findings / solution
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Provide Findings / Solution
+
+Findings
+
+▪ Findings are either an analysis of the investigation or the finding of the bug itself correlated with the KBAs / Notes
+
+▪ Summarize an explanation of what was discussed
+
+▪ Set expectations with the customer on next steps, identify all actions and dates that these will be completed 
+
+Solution
+
+▪ When the solution is found during chat, share the solution with the customer and discuss next steps
+
+Please Note
+
+Exit criteria from moderation 
+process (Session time):
+
+▪ New bug
+▪ Reproducing needed
+▪ Root cause analysis
+▪ Cloud Operations
+▪ Issue solved
+▪ Wrong component area
+
+Analyze the issue / Collect 
+
+information / Call to 
+
+customer
+
+Screen sharing
+
+/ remote 
+
+connection?
+
+Session Moderation
+
+No
+
+Provide findings / solution
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+April 10, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Expert Chat 2.0 – File Sharing
+
+Exchanging Files during Expert Chat Session – Customer as Sender
+
+To receive files from the 
+customer during an Expert 
+Chat session. Follow the 
+steps below:
+
+Step 1
+
+To receive files from the customer during an Expert 
+Chat session. Follow the steps below:
+
+Check if you are compliant with EUDP flag before 
+requesting any files from the customer.
+
+Only proceed with you are EUDP 
+complaint.
+
+Step 2
+
+Instruct the customer to:
+
+Click on Top Right menu.
+
+Click on “Send File” button.
+
+Select the file to be shared in the file selection menu.
+
+Once the file is shared in the Expert Chat session, it will 
+be displayed as an icon followed by the file name.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Expert Chat 2.0 – File Sharing
+
+Exchanging Files during Expert Chat Session – SAP as Sender
+
+To send files to the customer 
+during an Expert Chat 
+session. Follow the steps 
+below:
+
+Further Information
+
+Step 1
+
+Click on “Upload file”
+
+Step 2
+
+Select the file to be shared in the file selection menu and 
+click on “Open”
+
+Step 3
+
+Click on “Send” to confirm
+
+File links remain valid for 24 hours; keep this in mind when attempting to access links from a transcript, history, or the Chat Summary Report.
+
+All files exchanged during the Expert Chat session will be uploaded to a doc service
+
+After the “Create from Chat” button is pressed, a link for each file exchanged will be uploaded in the attachment area of the incident.
+
+The file size limitation is 25MB, up to 20 files per session.
+
+There is no file extension limitation at the moment. Please be careful on receiving files.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 3, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Schedule an Expert (SaE) Overview
+
+▪ Part of the Next Generation Support initiative
+
+▪ Currently offered only in EN
+
+▪ New way for customers to obtain assistance from Support
+
+▪ Allows customers to schedule a 30-minute, 1:1 meeting with a Support expert on the same types of questions that would be in a written incident
+
+▪ Tool-based scheduling and routing of SaE requests to best available engineers based on skills and time-zone
+
+▪ Customers have an opportunity to get help from Product Support via scheduled appointments at a time of their choosing.
+
+▪ The first available session displayed to a customer will available 3 business days from the time of booking. This gives engineers 2 full days of preparation and the session would be on the third day (at the 
+
+earliest).
+
+▪ Deliver a support experience that is more proactive and personal
+
+▪ Gain high customer satisfaction and contribute to deflection of written Cases
+
+▪ Scheduled SaE sessions take priority over written Cases
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Self-Assignment in BCP to work with Schedule an Expert
+
+You need to assign yourself to SaE topics via the self-assignment tool in BCP:
+
+This self-assignment is necessary to push SaE sessions to you based on the availability maintained in RCC.
+
+Step 1
+
+Step 2
+
+In BCP, click in the Administration tab > Self Assignment – SaE
+
+Select the nexus (expert) area/s you work on.
+
+Click Save.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Maintain RCC SaE availability
+
+To allow the system to route SaE sessions to you, please ensure you have maintained availability for SaE in the RCC tool.
+
+The information maintained in RCC is used to assign a session to you.
+1. Go to RCC settings by clicking the three horizontal bars in the top right corner of the RCC window.
+
+2. Set the maximum number of SaE sessions that should be assigned to you per day and per week.
+
+3. Click activities you want to maintain SaE availability for.
+
+4. Tick the SaE checkbox in the activity details
+
+5. Adapt the SaE availability time if required and save your changes.
+
+6. Your SaE availability is displayed in the RCC calendar.
+
+7.
+
+If you set any activity in RCC that has 0% On queue by default and you still want to offer SaE sessions, set yourself 10% On queue to enable SaE availability.
+
+Notes
+
+Schedule must be maintained for at least 2 weeks in advance.
+You are expected to maintain your schedule in multiples of 30 minutes starting at 00 or 
+30,
+e.g.
+09:00 -10:00
+09:00 -10:30
+etc.
+
+SaE appointments assigned to you will be displayed in RCC too
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Change Log
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramon Gupta
+
+May 9 2017 
+
+▪
+
+Initial document
+
+1.0.1
+
+Christine Fikany
+
+Jun 8, 2017
+
+▪ Added “Attach KBA 2484024 – Schedule an Expert session has been delivered to the incident…”
+▪ Modified Step 2 – “If SaE is not offered in the component chosen or if you are unable to get an expert on this component” by adding sub steps 3-6
+
+1.0.2
+
+Christine Fikany
+
+Aug 10, 2017
+
+▪ Slide 3 – added a screen shot for accessing RCC settings
+▪ Separated slide 10 into two slides for managing unforeseen events. Added handling sick days and customer requests increase in priority to this slide
+▪ Added new slide 21 – SaE session needs to be cancelled. Removed cancellation process from slide 19.
+▪ Modified reschedule process in slide 20 by removing the comment “send the customer some open times you see in the SaE scheduling option…”
+▪ Modified slide 14 to reflect new cancellation process.
+▪ Added slide 23 for handling sick days.
+▪ Added slide 24 for customer requests increase in priority of session
+
+1.1.0
+
+Christine Fikany
+
+Sep 29, 2017
+
+▪ New “Getting Started” slide sequence
+▪ Added additional clarification comment on the 3-day lead time on first slide
+▪ Added bullet on first slide stating “Scheduled SaE sessions take priority over written incidents”
+
+1.1.2
+
+Christine Osborn
+
+Mar 13, 2018
+
+▪ Broke content out into smaller section, no major content changes 
+
+1.1.3
+
+Laszlo Dobos
+
+Sep 11, 2018
+
+▪ Extending slide 3, „Maintain SaE availability in RCC” with using RCC activity which has 0% on queue time by default
+
+2.0.0
+
+Leonardo Reginato
+
+Sep 24, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+Status
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Expert Chat 2.0 – Getting an Expert Chat Session
+
+2 Steps to Get an Expert Chat Session
+
+Set your Agent Status
+
+Accept an Expert Chat Session
+
+Bold360 Agent Status
+
+Bold360 Agent Workspace has four statuses: Available, Away, P1 Handling and Screen Locked
+
+To be able to get chat session, your status should be set to Available
+
+Status Available
+
+Status Away
+
+Status P1 Handling and Screen Locked
+
+To be able to get chat session, your status should be set to 
+Available 
+
+Your status is automatically set to Away, if you don’t 
+respond to an Expert Chat Session within 60 seconds, the 
+chat is then reassigned to another agent.
+
+P1 Handling and Screen Locked statuses are set 
+automatically by the Chat Monitor Tool to prevent chat 
+interactions been assigned to you when you are not 
+available.
+
+An agent who fails to answer in time is set to Away status to 
+prevent new chats from being assigned. The agent must 
+then explicitly set their status to Available. 
+
+Away status should not be used deliberately. In case, you do 
+not want to receive Expert Chats, logoff from Bold360 
+Agent Workspace.
+
+You can receive Handover Chats, when you have Away 
+status.
+
+Notes
+
+Customer can only see the Start 
+Chat button if at least one 
+engineer is with status Available
+in the queue
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Expert Chat 2.0 – Getting an Expert Chat Session
+
+Accepting an Expert Chat Session
+
+All sessions must be accepted manually at Bold360 Workspace.
+
+To accept a session, please 
+follow the steps described 
+here.
+
+Step 1
+
+To accept the Chat, click in the session box. The Chat opens in a swim lane in the 
+workspace to the right and is ready to work with
+
+Brief information of the incoming Expert Chat session is available in the session 
+box, in the following order:
+
+Customer name
+
+Chat Queue
+
+Description
+
+Notes
+
+Countdown timer to transfer the 
+Expert Chat session to next 
+support engineer available, after 
+60 seconds. When the customer 
+sends you more than one 
+message, you see multiple red 
+spots next to their name 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 2, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Handover a session to another colleague
+
+Please use the following steps:
+1.
+
+In the Case screen, go to the Details tab -> Communications section.
+
+2. Select the Message Type “Internal Info” and then write the reason for handover.
+
+3.
+
+4.
+
+If the reason for handover is for moving to another component, edit the Service Now case and change the component field. Save the Case.
+
+In Service Now, select the Appointment > Handover SaE. There are two possible scenarios.
+
+Click the hyperlinks below to navigate to the page for detailed steps on each process:
+
+a)
+
+Engineer available at the same session date/time
+
+•
+
+Engineers available at the same time is determined by the system checking RCC for engineers availability. It does not take into account 
+the 3 day booking lead time or max day/week thresholds.
+
+b) No Engineer available
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Handover a session to another colleague – Engineer Available
+
+If after trigging a SaE Handover and Experts are available for the session at the same time, please follow 
+the steps below.
+
+Is the session date 3 or more days in advance?
+
+YES:
+1. Click in the Processor IDyou would like to handover under the Processorslist.
+
+2. The new processor will be notified via email of the upcoming SaE session. Both engineers availabilities will be 
+
+updated in RCC to reflect the change.
+
+3. The Case and Appointment will automatically be assigned to the new engineer.
+
+NO:
+
+A warm handover is required if the session is less than 3 days in advance.
+1. Contact the engineer listed as available at the same date and time.
+
+2.
+
+3.
+
+If they agree to take the session, click on the Processor ID to assign the Engineer to the Appointment.
+
+If they do not agree to take the session, proceed to the process for No Engineer available
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Handover a session to another colleague – Engineer Not Available
+
+If after trigging a SaE Handover engineers are Not Available, please follow the steps below.
+
+1. The Queue Manager on the target component will be responsible for finding someone to take over 
+
+session.
+
+2.
+
+In case the QM can’t find someone to take over the session, they should contact the STMs in the target 
+component for support.
+
+Notes
+
+Please see the Queue Manager for Schedule 
+an Expert section for full QM details
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Queue Management for Schedule an Expert
+
+It is the responsibility of the QM for finding a processor to take over an unassigned SaE session. Please refer to the QM Documentation for full details on setting up Queue Management for 
+Schedule an Expert.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Change Log
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramon Gupta
+
+May 9 2017 
+
+▪
+
+Initial document
+
+1.0.1
+
+Christine Fikany
+
+Jun 8, 2017
+
+▪ Added “Attach KBA 2484024 – Schedule an Expert session has been delivered to the incident…”
+▪ Modified Step 2 – “If SaE is not offered in the component chosen or if you are unable to get an expert on this component” by adding sub steps 3-6
+
+1.0.2
+
+Christine Fikany
+
+Aug 10, 2017
+
+▪ Slide 3 – added a screen shot for accessing RCC settings
+▪ Separated slide 10 into two slides for managing unforeseen events. Added handling sick days and customer requests increase in priority to this slide
+▪ Added new slide 21 – SaE session needs to be cancelled. Removed cancellation process from slide 19.
+▪ Modified reschedule process in slide 20 by removing the comment “send the customer some open times you see in the SaE scheduling option…”
+▪ Modified slide 14 to reflect new cancellation process.
+▪ Added slide 23 for handling sick days.
+▪ Added slide 24 for customer requests increase in priority of session
+
+1.1.0
+
+Christine Fikany
+
+Sep 29, 2017
+
+▪ New “Handover, Rescheduling, and Canceling SaE session” Slide sequence
+▪ Modification to slide 7 – “customer reschedule session”, to add steps for rescheduling if the same processor does not get assigned to the session
+
+1.1.1
+
+Christine Fikany
+
+Oct 26, 2017
+
+▪ Modified slide 9 - To cancel the session in BCP, in read only mode, go to the Routing-> Cancel SaE Session
+
+1.1.2
+
+Christine Fikany
+
+Nov 15, 2017
+
+▪ New Hand over process created – slides 2-7
+
+1.1.3
+
+Christine Fikany
+
+Nov 29, 2017
+
+▪ Slide 4 – removed requirement to notify STMs
+▪ Slide 7 – added hyperlink to QM WIPS
+▪ Slide 8 - deleted
+
+1.1.4
+
+Christine Fikany
+
+Dec 11, 2017
+
+▪ Slide 16 added – The session is not delivered (for any reason by customer or SAP)
+
+2.0.0
+
+Christine Osborn
+
+Mar 13, 2018
+
+▪ Broke content out into smaller section, no major content changes 
+
+2.0.1
+
+Christine Osborn
+
+Apr 4, 2018
+
+▪ Simplified QM section and modified link from QM WIPS to QM Jam
+
+2.0.2
+
+Lszlo Dobos
+
+Sep 13, 2018
+
+▪ Slide 3 – adding the step to reroute the incident to the correct processing org, if necessary 
+
+3.0.0
+
+Leonardo Reginato
+
+Oct 7, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+Status
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Handover SaE customer incidents from BCP to ServiceNow
+At A Glance
+
+For the first phase of SuccessFactors working with ServiceNow, a manual action for SaE cases is needed
+Follow the below steps to import missing appointment data from BCP to ServiceNow
+
+1. Review the dashboard “SaE Cases without appointment” in ServiceNow 
+
+2.
+
+If cases are listed here an urgent ITdirect ticket with priority Very High must be created. 
+Open a ticket to have the appointment data imported.
+
+a.
+
+b.
+
+c.
+
+d.
+
+Open an ITdirect ticket by clicking this link: https://fiorilaunchpad.sap.com/sites#Help-
+Inbox&/create/ZINE/IMFIT_DBS_INCIDENT_CUST/
+
+Fill in the CaseNumber in the “Issue Description”
+
+Click “Submit” to send your ticket.
+
+For urgent requests please send an additional email to Dean Li and Samuel Irvine
+
+Itdirect link (full):
+https://fiorilaunchpad.sap.com/sites#Help-Inbox&/create/ZINE/IMFIT_DBS_INCIDENT_CUST/##SaE-
+ServiceNOW##Copy%20SaE%20Data##/01/null/BCP/###INCIDENT-
+DATA###%0A%0ACaseNumber:%20%0A%0A#############%0A%0APlease%20assign%20this%20ITdirect%20ticket%20to%20Dean
+%20Li%20or%20Samuel%20Irvine.%0A%0AThis%20SaE%20case%20has%20been%20forwarded%20to%20ServiceNow.%20Please%
+20copy%20the%20SaE%20appointment%20data!%0A%0AThanks!/null/null/null
+
+Notes: 
+
+Manual action for cancelled SaE case – Set to Customer Action
+
+There is an open defect described in STRY0189058. When a customer cancels an SaE case, the customer is NOT set to “Customer Action” status automatically. Until this defect is fixed, please set the 
+cancelled SaE case to Customer action manually by sending a Reply.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+André Pürschel
+
+Dec 14 2019 
+
+▪
+
+Initial document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Laszlo Dobos, Budapest (Hungary)
+Process owner
+
+Status
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Firstname Lastname
+
+Month DD, YYYY
+
+▪ Value
+
+Name
+
+Name
+
+Name
+
+Name
+
+Oct 01, 2016
+
+▪ Value
+
+Oct 01, 2016
+
+▪ Value
+
+Oct 01, 2016
+
+▪ Value
+
+Oct 01, 2016
+
+▪ Value
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Status
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Expert Chat 2.0 – Incident Creation / Update
+
+Incident Creation
+
+Incident Update 
+
+Use 1click Incident 
+
+Creation
+
+Verify Ticketing System
+
+Review Component
+
+Get Chat SessionID
+
+Update Chat transcript in an 
+
+Existing Incident
+
+Or
+
+Update remaining transcript of an 
+
+ongoing Chat
+
+Purpose
+
+It is mandatory to record Expert Chat interactions on incidents (or cases). In some circumstances, the 
+incident must be created during the real-time interaction, therefore, the incident should be updated with the 
+remaining interactions a the end of the Expert Chat session.
+
+ServiceNow and BCP
+
+During ServiceNow rollout in Product Support, there are some additional processes to be 
+taken into consideration during incident (or case) creation or update
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Notes
+
+The well-known term Incident or customer incident is 
+represented as Case at ServiceNow.
+
+Expert Chat 2.0 – Incident Creation / Update
+Incident Creation
+
+Steps to create an incident
+
+Choose Ticketing System
+
+To choose the ticketing 
+system to create the incident 
+or case, please follow the 
+steps described here.
+
+Option A: Create Incident at BCP
+
+Option B: Create Case at ServiceNow
+
+Use this option for areas which 
+are still using BCP
+
+Use this option for areas which 
+already migrated to ServiceNow
+
+Step 1
+
+Step 1
+
+At Bold360, open Expert Chat PS Board
+
+At Bold360, open Expert Chat PS Board
+
+Step 2
+
+Click in Create Incident
+
+Step 2
+
+Click in Create Case
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Expert Chat 2.0 – Incident Creation / Update
+Incident Creation
+
+Steps to create an incident
+
+Creating a Case at 
+ServiceNow
+
+To create a case at 
+ServiceNow, please follow 
+the steps described here.
+
+After clicking in Create Case at Bold360, the 
+“SAP – Create Case from Chat” will open.
+
+ChatID is automatically populated.
+
+Step 1
+
+Select the most appropriate Component 
+according to the issue described in the 
+interaction.
+
+Step 2
+
+Review Responsible Party field. If it doesn’t 
+contain ServiceNow. The incident must be 
+created at BCP system.
+
+Notes
+
+The message “The selected component is not handled 
+in ServiceNow. Please create a ticket in BCP” will be 
+displayed if the component selected is not being 
+processed in ServiceNow yet.
+
+In this situation, cancel the current process and click in 
+“Create Incident at BCP” at Bold360 (see Choosing 
+Ticket System step)
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Expert Chat 2.0 – Incident Creation / Update
+Incident Update
+
+Steps to update a chat transcript in an existing incident
+
+Getting Chat SessionID
+
+To get the Chat SessionID at 
+Bold360, please follow the 
+steps described here.
+
+Option A: Getting SessionID from Bold360 
+SAP Chat Board
+
+Option B: Getting SessionID from Expert Chat 
+Monitor Tool
+
+Step 1
+
+At Bold360, open SAP Chat Board
+
+Step 2
+
+Click in Chat Session Id to copy the 
+SessionID to your clipboard
+
+Step 1
+
+At Expert Chat Monitor Tool, open Recent 
+Chats Received option
+
+Step 2
+
+Click in the session you want to get the 
+sessionID and select Copy to Clipboard -> 
+Session ID
+
+Notes
+
+Recent Chat Session IDs and Transcripts are stored 
+locally on Expert Chat Monitor Tool up to 7 days.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Expert Chat 2.0 – Incident Creation / Update
+Incident Update
+
+Steps to update a chat transcript in an existing incident
+
+Loading the Chat Transcript
+
+To load the Chat transcript 
+at ServiceNow, please follow 
+the steps described here.
+
+After getting the Chat SessionID
+
+Step 1
+
+After opening the existing incident, click in the 
+“three dots” button
+
+Step 2
+
+Select Load Bold360 Chat
+
+Step 1
+
+Paste or type the SessionID.
+
+Step 2
+
+Click in OK to load the transcript and 
+attachments of the chat session into this 
+incident
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Expert Chat 2.0 – Incident Creation / Update
+Incident Update
+
+Steps to update remaining transcript of an ongoing Chat
+
+Updating remaining 
+transcript of an ongoing 
+Chat
+
+To update remaining Chat 
+transcript of an ongoing Chat 
+at ServiceNow, please follow 
+the steps described here.
+
+Step 1
+
+At ServiceNow, click in the “three dots” button
+
+Step 2
+
+Select Reload Bod360 Chat
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Lisandro Magnus
+
+December 10, 2019 ▪ New document for ServiceNow
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Expert Chat 2.0 – Initial Setup
+
+4 Steps for Expert Chat 2.0 Initial Setup
+
+Attend an Expert Chat 
+
+Training
+
+Self-Assignment to Expert 
+
+Areas at BCP/NOW
+
+Enable your Browser 
+
+Notification
+
+Install Chat Monitoring Tool
+
+Purpose
+
+All support engineers should follow the steps described in this process to ensure a consistent Expert Chat delivery among Product Support locations.
+
+Notes
+
+Expert Chat Trainings are delivered by Support Centers RTS Champions.
+
+Contact your manager or your local RTS buddy to get more details on how 
+to attend an Expert Chat Training
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Expert Chat 2.0 – Initial Setup
+
+Self-Assignment to Expert Areas (cont.)
+
+To perform the self-
+assignment to Expert Areas, 
+please follow the steps 
+described here.
+
+Option A: Self-Assignment at BCP
+
+Option B: Self-Assignment at NOW (UI16 only)
+
+Step 1
+
+Open Administration menu
+
+Step 2
+
+Click in BoldChat Self-Assignment
+
+Step 1
+
+Search for Bold
+
+Step 2
+
+Click in BoldChat Self-Assignment
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Initial Setup
+
+Self-Assignment to Expert Areas
+
+Remove marton’s name
+
+To perform the self-
+assignment to Expert Areas, 
+please follow the steps 
+described here.
+
+Step 1
+
+Open Bold360 Chat
+
+Expand Chat Production
+
+Open your functional area
+
+Select your Expert Areas
+
+Click in Save 
+
+Notes
+
+Your assigned Expert Areas will appear at the top of the list
+
+It is required to restart Bold360 application after any Expert Area 
+assignment.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Expert Chat 2.0 – Initial Setup
+
+Enable your Browser Notification
+
+To enable your browser 
+notification for Expert Chat, 
+please follow the steps 
+described here.
+
+Step 1
+
+For Setting up Chrome Notifications:
+Select padlock  - View site information -> 
+Notifications and Sound -> Select “Allow” or
+
+Go to Site Settings -> Notifications and Sound 
+-> Select “Allow”
+
+Step 2
+
+If the Bold360 workspace is minimized, you will receive 
+Notifications for incoming chats.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Expert Chat 2.0 – Initial Setup
+
+Install Chat Monitor Tool
+
+Notes
+
+Chat Monitor Tool
+
+• Chat Monitor Tool is an external tool to facilitate support engineers to 
+
+monitor specific Chat queues
+
+• For more details click here
+
+• To download the Chat Monitor Tool, click here.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 6, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Expert Chat 2.0 – Handling Multiple Issues 
+At A Glance
+
+Handling Multiple Issues
+
+Does the customer have 
+
+another issue?
+
+Create/Update incident 
+
+& End the session
+
+No
+
+Yes
+
+Inform customer you 
+
+will be creating an 
+
+incident for each issue
+
+Create incident for the 
+issue already handled
+
+Follow the regular 
+Expert Chat Process
+
+Purpose
+
+Assist the customer one issue at a time. Create an incident after or during each issue before assisting on the next one. For compliance reasons, do not edit the interaction transcript for multiple issues or 
+remove any attachments, even if the files were provided for the previous issue. 
+
+Change the incident title, problem description, add a summary of relevant details for the new issue based on the chat transcript, system details and component accordingly for each additional new incident.
+
+Please follow Warm Handover process in case you need to transfer the interaction to another expert. In this situation, check if there aren’t additional issues for your team area before transferring the interaction.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 7, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Schedule an Expert Overview
+
+How do I get started with 
+SaE?
+
+1. Assign yourself to expert areas in BCP via Administration -> Sef Assignment SaE.
+
+2. Maintain availability  in RCC
+
+Full details here.
+
+I just received a Schedule an 
+Expert session, what do I do 
+now?
+
+1. Verify session details for completeness and call customer if more information is needed
+
+2. Generate a unique Skype URL and copy/paste in the Case Appointment.  Details here.
+
+3. Prepare for session by researching issue, gathering KBAs, notes, etc. Details here.
+
+4. Join the session about 5 minutes early and deliver when customer arrives. 
+
+What do I do if I receive a SaE
+session for a product I don’t 
+support?
+
+1. Put a Internal Info in the Case with reason for moving session (e.g. wrong nexus area).
+
+2. Change the component to the correct one in the ServiceNow Case and save
+
+3.
+
+Initiate a SaE Handover via Appointment -> SaE Handover
+
+What if the session request is 
+for consulting topics?
+
+What if the customer doesn’t 
+join the call?
+
+When do I need to cancel a 
+session?
+
+Please see the following 
+sections for more details os
+SaE Processes
+
+4.
+
+If a processor is available at same date/time,  assign them the session (Note: If session is less than 3 days in advance then  a warm handover is required).
+
+5.
+
+If there are no engineers available,  follow the handover process here.
+
+Similar to regular written Cases, SAP Product Support delivers a limited amount of consulting via SaE. See guidance for time dedication and for full
+
+details at Consulting WIPS.
+
+1. Make two more attempts to call customer directly.
+
+2.
+
+If customer still doesn’t answer, cancel session in ServiceNow via Appointment -> Cancel SaE session.
+
+Details here.
+
+If you receive a session but it is not delivered  for any reason, you must cancel the session via Appointment -> Cancel SaE session.
+
+Note: Sessions can be cancelled after session date/time  has passed
+
+▪ Getting Started
+
+▪ Process Overview
+
+▪ Rescheduling a Session
+
+▪ Canceling a Session
+
+▪ Handover Process
+
+▪ Unforeseen Events
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Christine Osborn
+
+Mar 13, 2018 
+
+▪ Created SaE Overview slide
+
+1.0.1
+
+Laszlo Dobos
+
+Jul 3, 2018
+
+▪ Rewording: “What if the session request is for consulting topics?”
+
+2.0.0
+
+Leonardo Reginato
+
+Nov 18, 2019
+
+▪
+
+intiial document incorporating Service Now
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Status
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Post-Chat Incident Processing
+
+Guidelines to handle the incident after the Expert Chat interaction
+
+Expert Chat session is 
+
+over
+
+Incident created during 
+
+the session?
+
+No
+
+Use 1click Incident 
+Creation function to 
+create the incident 
+
+HEC-Specific Process
+
+Set the related SPC incident to “Solution Proposed”
+
+Mandatory Elements for Session Summary
+
+Issue description in your own words
+
+System details (where available)
+
+What actions you have taken with the customer
+
+Multiple Issues created during session: Yes/No
+
+Yes
+
+Use BCP Follow UP -> 
+
+Update from Chat 
+
+function to upload the 
+
+transcript and 
+attachments
+
+Issue Solved?
+
+No
+
+Evaluate BI and adjust 
+
+priority accordingly
+
+Summarize the session 
+in an internal/handover 
+
+memo
+
+Yes
+
+Attach relevant 
+
+KBAs/Notes and set 
+incident to “Solution 
+
+Provided”
+
+Follow your Functional 
+
+Area assignment 
+
+process
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Expert Chat 2.0 – Post-Chat Incident Processing
+
+Scenarios
+
+▪ For Very High chats, include Info to Customer memo explaining that chat is not the recommended channel for Very High. 
+
+▪ Further processing of the P1 incident follows the standard  “(P1) Very High Incident Handling” process. 
+
+▪ Include the https://support.sap.com/en/my-support/product-support.html link which explains channels and priorities.
+
+▪ When setting the priority, please refer to SAP Note #67739 for guidelines: https://launchpad.support.sap.com/#/notes/67739
+
+▪ For EUDP Processing, refer to WIPS “Working with customers incidents under EUDP Regulations” 
+
+▪ Cloud Support – Incident Priority and Response Level can be found here. It details the timeframe to which the customer needs to be updated on the incident status after it was created.
+
+▪ For compliance reasons, do not edit the interaction transcript for multiple issues, instead copy the full transcript into each incident.
+
+▪ When forwarding to next level of support, follow the standard “From Product Support to Dev Support” process.
+
+▪ When processing  on new component follow the standard “Verify Components” process.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 6, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Schedule an Expert Workflow
+
+Support Engineer 
+
+maintains SaE
+
+assignment in BCP & 
+
+availability in RCC
+
+Customer books 
+
+SaE session
+
+Automatic: Create a Case 
+
+in ServiceNow
+
+Analyze customer’s 
+
+request, validate 
+
+completeness
+
+Belongs to 
+your SaE
+
+area?
+
+Yes
+
+Automatic: Assign 
+
+engineer based on RCC 
+
+availability
+
+Generate Skype meeting 
+
+URL
+
+Support 
+engineer 
+
+notified via 
+
+email
+
+Prepare for SaE session
+
+No
+
+No
+
+Handover/
+Cancel by 
+
+SAP
+
+Summarize 
+and process 
+
+Case as 
+standard
+
+Deliver SaE session
+
+Issue 
+
+resolved?
+
+Yes
+
+Summarize & close 
+
+with Resolution
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Receive SaE session booking notification
+
+You will receive an email notification with the following details when booked for a SaE session:
+
+Screenshot of SaE email notification
+
+▪ SaE Case Number (Appointment ID)
+
+▪ Date & Time (with time zone) of the SaE slot
+
+▪ SaE Expert Area
+
+▪ SaE Session Description (free text) as mentioned by customer when booking
+
+▪ the session
+
+▪ An .ics file which is to be added to your Outlook calendar
+
+Notes
+
+The Skype meeting URL needs to be generated manually by 
+the SaE Engineer at the moment. As soon as you receive the 
+notification e-mail about the SaE booking, follow instructions 
+here to generate the Skype meeting URL without any delay.
+
+After generating the Skype meeting URL, it is mandatory to 
+add the .ics file to your calendar. In case of ServiceNow 
+outages, still the SaE session can be delivered.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+SaE session Appointment
+
+The submission of the Schedule an Expert session triggered a Case in Service Now. The case is routed automatically to an engineer based on the component and based on the engineer's availability, 
+accordingly to the settings maintained in BCP and RCC. More information here. The Case is created based on the information the customer provided as well as some information the system 
+generated.
+
+When the case is created, the system also generates an Appointment for the particular SaE session. Some values are pre-filled automatically with the information previously provided, such as the 
+time slots.
+
+To find the new SaE case and its appointment:
+
+Service Now
+
+List
+
+My Cases / My Open
+
+Appointments
+
+Notes
+
+It may take a while for the 
+ServiceNow backend to 
+update the Case list.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Generate Skype Meeting URL
+
+Use the following steps to generate a Skype meeting URL as soon as you receive the notification of customer booking the SaE session:
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+Step 5
+
+In Outlook, go to Calendar > New Skype 
+Meeting > Meeting Options
+
+1.
+
+In the window Skype Meeting Options, 
+choose the radio button A new meeting 
+space (I control permissions)
+
+2. Under Who’s the presenter? Select
+
+Anyone (no restrictions)
+
+Copy the URL generated in the hyperlink Join 
+Skype Meeting(right-click where hovering 
+the mouse pointer on the hyperlink > select 
+Copy Hyperlink)
+
+Copy the unique Conference ID
+
+1.
+
+Enter the URL and Conference ID in the 
+SaE Case, in the field SAE Session and 
+SAE Conference IDunder the 
+Appointmentscreen.
+
+2. Save the Case.
+
+Once you save the Case, then the meeting link should be displayed in the Launchpad. (It may take some time to update).
+
+Notes
+
+Information for customers when using Skype meeting:
+https://support.office.com/en-gb/article/Join-a-Skype-Meeting-with-Skype-
+forBusiness-Web-App-4828ad18-ed21-422a-a870-94d676d4b72a
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Prepare for delivering SaE session
+
+Based on the details provided by the customer in the SaE appointment, validate if you have all the information and 
+tools at hand to deliver the SaE session.
+
+Confirm if you need to do one or more of the following actions before the actual SaE session delivery:
+1. Validate if all the information is available for you to deliver the SaE session. If not, call the customer to gather all 
+
+the necessary information:
+
+a) If customer is not reachable via phone, you can gather information via External Infovia 
+
+the SaE Case to make customer aware that you need to reach him and the reason.
+
+b) If the customer does not respond to the SaE case, you must still continue with the SaE
+
+session!
+
+c) The above guideline to continue with the SaE session also applies if the customer does 
+
+not provide additional information you may have requested. In this case too, proceed with 
+delivering the SaE session, making a best effort with the available context.
+
+d) Continue the conversation about the request with customer within the case if necessary.
+
+2. Gather links to self-help resources – KBAs, Community, Product documentation, etc.
+
+3. Confirm that the information provided by customer matches the component chosen for booking SaE session.
+
+4. Check if EUDP Regulations apply and if these may hamper the delivery of SaE session.
+
+5. Record key points for reference in an Internal Info in SaE Case.
+
+BEST PRACTICE:  
+Call to confirm the customer has received the 
+Skype meeting URL and is aware of the session, 
+clarify his/her request if the information provided 
+during booking is ambiguous. This is a good 
+opportunity to set expectations for the customer 
+so that he can be prepared and knows what is 
+going to happen in the SaE session.
+
+Notes
+
+If the SaE session is assigned 
+incorrectly, refer guideline here.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Deliver SaE session
+
+Logon to the Skype Meeting Room at least 5 minutes before the scheduled start of the session.
+
+Deliver session as soon as the customer joins the meeting.
+
+Adhere to the standard WIPS guideline for following:
+
+System Access & Log-on Data
+
+Security Rules
+
+EUDP Regulations
+
+Consulting Requests
+
+Keep a conscious watch on the time remaining – at the end of 25 minutes, confirm with the customer that you are 
+on-track to complete the session in the scheduled 30 minutes. If you think there is added value to extend the 
+session to .e.g. discuss more details or collecting more information about the scenario, communicate to the 
+customer that the session can be extended with additional max. 30 minutes.
+
+When ending the meeting, inform customer that you will update a summary of this meeting and Resolve the SaE
+Case.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Notes
+
+Refer to guideline on handling exceptional situations 
+when delivering the sessions - here.
+
+Close SaE session
+
+Where all questions answered in session and does customer agree to close?
+
+YES:
+
+Document the summary of the SaE session in a External Info after you have ended the Skype Meeting and Resolve the Case. 
+
+NO:
+
+If the session needs to be continued and worked as normal, summarize the session and outline key topics covered. Change the Current Channel to Case. More details here.
+
+When updating the Case:
+▪ Ensure it is assigned to the correct component.
+
+▪ Attach KBAs which are relevant in the context of the session.
+
+▪ Summarize open actions, if any, for SAP Product Support.
+
+▪ If the case needs further analysis in Product Support, summarize your findings and assign case to the correct queue.
+
+If you have promised to provide the customer with additional documentation,
+
+follow the standard WIPS guideline on Exchanging Files with Customers.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Notes
+
+These steps must be performed the same day as the 
+delivery of the SaE session.
+
+Close SaE session
+
+▪ Schedule an Expert is offered only in English.
+
+▪ However, engineers are able to converse in the local language of customer if they have the appropriate skills.
+
+▪ Any summary of the SaE session documented in the incident must be English.
+
+▪ If engineer is not able to converse in customer’s local language:
+
+▪ Request the customer to switch to English.
+
+▪ If the customer is not able to converse in English:
+
+▪ Inform customer that SaE is currently offered only in EN and that the SaE case will be transferred to the regular case processing queue for processing as a regular case.
+
+▪ Update the field Current Channel = Case in the Details section (more detail here)
+
+▪ Transfer Case into normal case queue and trigger Translation workflow as per WIPS process Verify Language if needed.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+Guidance for Remote Connection to customer systems
+
+Standard WIPS Guidance applies for the following:
+
+▪ Obtaining remote connection user ID and password.
+
+▪ Starting a remote connection via STFK.
+
+▪ Screen sharing.
+
+▪ GoTo Assist screen sharing.
+
+For more details, please refer to Remote Support WIPS or the Schedule an Expert FAQ document.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+Change Log
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramon Gupta
+
+May 9 2017 
+
+▪
+
+Initial document
+
+1.0.1
+
+Christine Fikany
+
+Jun 8, 2017
+
+▪ Added “Attach KBA 2484024 – Schedule an Expert session has been delivered to the incident…”
+▪ Modified Step 2 – “If SaE is not offered in the component chosen or if you are unable to get an expert on this component” by adding sub steps 3-6
+
+1.0.2
+
+Christine Fikany
+
+Aug 10, 2017
+
+▪ Slide 3 – added a screen shot for accessing RCC settings
+▪ Separated slide 10 into two slides for managing unforeseen events. Added handling sick days and customer requests increase in priority to this slide
+▪ Added new slide 21 – SaE session needs to be cancelled. Removed cancellation process from slide 19.
+▪ Modified reschedule process in slide 20 by removing the comment “send the customer some open times you see in the SaE scheduling option…”
+▪ Modified slide 14 to reflect new cancellation process.
+▪ Added slide 23 for handling sick days.
+▪ Added slide 24 for customer requests increase in priority of session
+
+1.1.0
+
+Christine Fikany
+
+Sep 29, 2017
+
+▪ New “Process Overview” slide Sequence
+
+1.1.1
+
+Christine Fikany
+
+Oct 27, 2017
+
+▪ Slide 4 – modified step 1 to include confirming with customer Skype meeting invite has been received
+▪ Slide 6 – removed the step to attach a KBA once session has been completed 
+
+1.1.2
+
+Christine Fikany
+
+Dec 11, 2017
+
+▪ Slide 6 – Added comment to put incident in “solution provided” the same day session is completed if all questions are answered. 
+
+1.1.3
+
+Christine Fikany
+
+Jan 22, 2018
+
+▪ Slide 3 – deleted step 3 “Save the calendar appointment”
+
+1.1.4
+
+Christine Osborn
+
+Mar 13, 2018
+
+▪ Slide 1 – Added step for “Generate Skype URL”
+▪ Slide 2 – screen shot modified with updated version
+▪ Slide 3 – Updated screen shot and added step 3 to “Anyone (no restrictions)” for presenter
+▪ Slide 4 – restructured slide but content remained the same
+▪ Slide 8 – updated SaE Remote support FAQ link
+
+1.1.5
+
+Laszlo Dobos
+
+Jun 18, 2018
+
+▪ Slide 2 – Modified wording in „Please note” box: updated how to generate Skype URL
+▪ Slide 3 – Updated how to generate Skype URL 
+
+1.1.6
+
+Laszlo Dobos
+
+Sep 11, 2018
+
+▪ Slide 4 – extended steps in „Prepare for delivering SaE session ”
+▪ Slide 5 – Extended „Deliver SaE session” with the possiblity of extending the session based on engineer judgement 
+
+1.1.7
+
+Laszlo Dobos
+
+13 May, 2019
+
+▪ Slide 2 – Mandatory step: saving .ics file from e-mail notification once it contains Skype URL to ensure business continuity
+
+2.0.0
+
+Leonardo Reginato
+
+Sep 24, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+Status
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+10
+
+Expert Chat 2.0 – Remote Connection
+
+3 Steps for Remote Connection
+
+Check EUDP Flag
+
+Access Secure Area
+
+Start Remote Connection 
+
+through STFK
+
+Purpose
+
+The possibility to analyze the root-cause or get additional details about an issue via remote connection speeds up the resolution and helps our organization to delight customers always.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+Notes
+
+Always follow EUDP and Remote 
+Connection WIPS guidelines
+
+Expert Chat 2.0 – Remote Connection
+
+Remote Connection to customer system (cont.)
+
+To remote connect to 
+customer system, please 
+follow the steps described 
+here.
+
+Step 1
+
+Step 2
+
+At SAP Chat Board, check Data Protection field
+
+At SAP Chat Board, scroll down to LINKS session and click on “Display Logon Data”
+
+Customer Logon Data will be displayed in the Secure Area
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Remote Connection
+
+Remote Connection to customer system
+
+To remote connect to 
+customer system, please 
+follow the steps described 
+here.
+
+Step 3
+
+Step 4
+
+At SAP Chat Board, scroll down to LINKS 
+session and click on “Remote Connection”
+
+An SAP GUI shortcut will be downloaded to open customer’s STFK transaction
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 6, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+SaE Session Reschedule Workflow Overview
+
+Initiated by 
+Customer?
+
+Yes
+
+Customer reschedules 
+through booking tool
+
+Automatic: PS Engineer 
+receives update meeting 
+
+invite
+
+Reschedule needed
+
+No
+
+PS Engineer works to find a 
+
+colleague to handover
+
+Yes
+
+New 
+Engine
+
+er 
+
+found?
+
+No
+
+Automatic: PS Engineer is 
+
+assigned based off RCC 
+
+availability
+
+PS Engineer prepares for SaE
+
+session
+
+Yes
+
+PS Engineer deliver SaE
+
+session
+
+Session 
+
+assigned to 
+
+same PS 
+Engineer?
+
+No
+
+PS Engineer follows Handover 
+
+Process
+
+PS Engineer calls the 
+
+customer and asks them to 
+
+reschedule through tool
+
+Automatic: Initial PS Engineer 
+receive name removal email. 
+
+New PS Engineer receives 
+
+meeting invite email
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+SaE Session needs to be rescheduled (by SAP)
+
+The SaE sessions booked by customer are the highest priority. This should be considered before attempting to cancel or reschedule 
+any sessions.
+1. Make your line manager aware of this situation
+
+2.
+
+If you cannot make the session you have one of two options:
+
+a) Option-1: Work directly with your colleagues and identify an Engineer who can take over the session from you. In this case, ensure all details are 
+
+transferred to the Engineer taking over. Full details for transferring a session to another engineer here.
+
+b) Option-2: Call the customer and ask them to reschedule in the booking tool. 
+
+1. Direct contact over the phone must be made with the customer to cancel and/or reschedule the session to the next most convenient
+
+time for the customer.
+
+Notes
+
+Rescheduling the session has to be done by the customer himself via the SaE booking tool; SAP 
+cannot do this on customer’s behalf. 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Reschedule session (by Customer)
+
+Customers can reschedule sessions through the booking tool accessed via ONE Support Launchpad. You will receive a notification 
+that the customer has rescheduled the SaE session. Then, in ServiceNow, it will show in the Activity panel that the appointment has 
+been rescheduled.
+•
+
+If the SaE case is still assigned to you, follow the SaE process as if this was a new SaE case.
+
+•
+
+If the SaE case is not assigned to you anymore, the booking will be released in RCC and the same slot will then be made available as a free slot.
+
+•
+
+If you agree with the customer to reschedule and want to continue to be the one to hold the session but you did not get assigned after 
+rescheduling, find the case, put your name as the processor of the appointment, and document this in an internal memo.
+
+Notes
+
+Rescheduling of sessions will still adhere to the 3 day booking lead time. If you and the customer 
+agree to reschedule for an earlier window then managing this will be between you and the 
+customer.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Change Log
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramon Gupta
+
+May 9 2017 
+
+▪
+
+Initial document
+
+1.0.1
+
+Christine Fikany
+
+Jun 8, 2017
+
+▪ Added “Attach KBA 2484024 – Schedule an Expert session has been delivered to the incident…”
+▪ Modified Step 2 – “If SaE is not offered in the component chosen or if you are unable to get an expert on this component” by adding sub steps 3-6
+
+1.0.2
+
+Christine Fikany
+
+Aug 10, 2017
+
+▪ Slide 3 – added a screen shot for accessing RCC settings
+▪ Separated slide 10 into two slides for managing unforeseen events. Added handling sick days and customer requests increase in priority to this slide
+▪ Added new slide 21 – SaE session needs to be cancelled. Removed cancellation process from slide 19.
+▪ Modified reschedule process in slide 20 by removing the comment “send the customer some open times you see in the SaE scheduling option…”
+▪ Modified slide 14 to reflect new cancellation process.
+▪ Added slide 23 for handling sick days.
+▪ Added slide 24 for customer requests increase in priority of session
+
+1.1.0
+
+Christine Fikany
+
+Sep 29, 2017
+
+▪ New “Handover, Rescheduling, and Canceling SaE session” Slide sequence
+▪ Modification to slide 7 – “customer reschedule session”, to add steps for rescheduling if the same processor does not get assigned to the session
+
+1.1.1
+
+Christine Fikany
+
+Oct 26, 2017
+
+▪ Modified slide 9 - To cancel the session in BCP, in read only mode, go to the Routing-> Cancel SaE Session
+
+1.1.2
+
+Christine Fikany
+
+Nov 15, 2017
+
+▪ New Hand over process created – slides 2-7
+
+1.1.3
+
+Christine Fikany
+
+Nov 29, 2017
+
+▪ Slide 4 – removed requirement to notify STMs
+▪ Slide 7 – added hyperlink to QM WIPS
+▪ Slide 8 - deleted
+
+1.1.4
+
+Christine Fikany
+
+Dec 11, 2017
+
+▪ Slide 16 added – The session is not delivered (for any reason by customer or SAP)
+
+2.0.0
+
+Christine Osborn
+
+Mar 13, 2018
+
+▪ Rescheduling a session moved to it’s own section
+
+3.0.0
+
+Leonardo Reginato
+
+Oct 7, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+Status
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+SaE for Existing Cases Overview
+
+▪ Customers can create an SaE session directly from an open Case to allow them to discuss details of the Case with the processor at a time that is convenient for both the customer and 
+
+Case processor
+
+▪ The customers who book the appointments must have "create Case" authorization on the SAP Launchpad and a valid maintenance frame.
+
+▪ SaE on Existing Cases is available for Cases with:
+
+▪ Priority High (P2), Medium (P3) and Low (P4)
+
+▪ A processor assigned
+
+▪ Processing organization in Product Support 
+
+▪ Case processor’s availability is based off SaE availability and the Max. SaE Sessions Per Day/week settings in RCC
+
+▪ The first available sessions can be booked a minimum of 1 business day in advance, giving the processor at least 1 full business day to get prepared for the SaE session
+
+▪ Sessions are offered in a planning horizon of 2 weeks
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Getting started
+
+Setup for being available to deliver Schedule an Expert for open incidents is the same as for new Schedule an Expert sessions. Please click the links for full details on the 
+following required steps.
+
+1. Self-Assignment to expert areas in BCP
+
+2. Maintain availability in RCC
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+What to do when a SaE session is booked
+
+1. Prepare for delivering SaE session
+
+2. Receive SaE session booking notification
+
+3. Check if duplicate booking of SaE session exists
+
+4. Call customer for details/set expectations
+
+5. Generate and send Skype Meeting URL
+
+6. Continue the conversation about the incident topic with customer within the incident if necessary.
+
+7. Deliver SaE session
+
+8. Update the status of the Case accordingly
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Handing over a session for an existing Case
+
+During preparation for the upcoming SaE session, it may turn out the case belongs to another component. In such cases follow the normal Schedule an Expert handover process as 
+documented here.
+
+Note
+
+A warm handover is mandatory for Schedule an Expert sessions 
+booked for Existing Cases.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Rescheduling sessions
+
+Reschedule by customer:
+
+At this time, customers are not able to reschedule a Schedule an Expert session booked for an existing case through the tool.
+
+Reschedule by SAP:
+
+At this time it is not possible to reschedule through the tool so the following steps must be taken:
+
+1. Call customer to inform him/her of reason for reschedule and agree on a new date/time for the session
+
+2. Join session with Skype meeting information generated by case processor at the new agreed date/time
+
+Note
+
+Do not cancel the session in case it is held in a different time!
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+A traditional SaE and SaE for Existing Cases sessions are booked for the same topic
+
+1. Find out if there is any duplicate Case for the case by clicking on Customer name in the General Details/Customer Data section of the Case, and check existing Case from customer in 
+
+the popup window. In case you find Case with low priority, check if it is a SaE Case.
+
+2. Find the processor of the duplicate Case
+
+3. Agree on the ownership of the case
+
+4. If processors agree:
+
+a. Keep the Case with the upcoming SaE session, and close the duplicate Case and cancel the corresponding SaE session with informing the customer. Follow 
+
+normal Schedule an Expert cancellation process as documented here.
+
+b. Provide the SaE session
+
+5. In case it cannot be decided clearly, who should deliver the SaE session:
+
+a. The SaE appointment booked for the existing Case should be provided
+
+b. Keep the Case with the upcoming SaE session, and close the duplicate Case and cancel the corresponding SaE session with informing the customer. Follow 
+
+normal Schedule an Expert cancellation process as documented here.
+
+Note
+
+Call the customer, to communicate about the SaE 
+session that will be cancelled .
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Case with booked SaE for Existing Case session is raised to Very High
+
+In case the High/ Medium/ Low priority Case that has a SaE for Existing Case session booked to it is raised to Very High priority, SaE session has to be cancelled:
+
+▪ by the original processor of the Case, in case it happens during office hours
+
+▪ by the Queue Manager, in case the priority is raised outside of the original processor’s office hours
+
+After cancellation of the SaE session, follow the P1 process.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Cancelling sessions
+
+Cancel by customer:
+
+Customers can cancel sessions directly through the booking tool. You will receive a notification that the customer has cancelled the SaE session. Therefore the following steps must be 
+taken to find out how the customer wants to proceed with the Case.
+
+1. Call customer to find out why they’ve cancelled the session and act accordingly
+
+a.
+
+b.
+
+c.
+
+If issue is solved, request they confirm the Case
+
+If issue is still open, put the Case back in process and proceed as a normal Case
+
+If customer cancels the SaE session because they need to reschedule for a different date/time, ask the Customer to book a new session
+
+Cancel by SAP: :
+
+Follow normal Schedule an Expert cancellation process as documented here.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+What else can happen?
+
+The session has ended but further analysis/troubleshooting is needed by SAP 
+
+Session should be transferred back to be worked as an Case. Follow the normal process for SaE session can’t be completed within 30 minutes 
+
+The Case needs to be forwarded to another organization (AIS, development) before the SaE session happens
+
+1. Call the customer and inform them that their issue must be moved to the next level where Schedule an Expert is not supported. Their session will be cancelled and worked as a normal 
+
+Case
+
+2. Cancel the session
+
+How do I handle consulting topics? What if I’ve already spent the allotted time on a consulting discussion with the customer?
+
+•
+
+•
+
+•
+
+If consulting note 83020 has been attached, this indicates it was a consulting issue before the SaE session was scheduled and customer should be informed that SaE is not meant to be 
+a consulting platform.
+
+If consulting note 83020 has NOT been attached, use your best judgement to determine how to move forward and what expectations to set with the customer around consulting
+
+Follow the SaE consulting WIPS
+
+Customer has multiple questions in SaE session
+
+Ask customer to create a new SaE / Case for the new questions.
+
+Questions about other Cases
+
+Direct the customer to CIC
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+Change Log
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Christine Osborn
+
+Apr 27, 2018
+
+▪
+
+Initial Document
+
+1.0.1
+
+Melinda Ludany
+
+May 17, 2018
+
+▪ Final document
+
+1.0.2
+
+Laszlo Dobos
+
+Sep 11, 2018
+
+▪ Extending slide 3, "What to do when a SaE session is booked"
+
+1.0.3
+
+Laszlo Dobos
+
+May 14, 2019
+
+▪ Slide 1 - P3 and P4 incidents are eligible under certain circumstances for SaE for open incidents
+
+2.0.0
+
+Leonardo Reginato
+
+Nov 18, 2019
+
+▪
+
+Initial document incorporating Service Now
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Firstname Lastname, Location
+Process owner
+
+Status
+
+Draft
+
+Released
+
+Released
+
+Released
+
+Draft
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+10
+
+Expert Chat 2.0 – Screen Sharing
+
+4 Steps for Screen Sharing
+
+Check EUDP Flag
+
+Get Customer Consent
+
+Instruct Customer to 
+
+download Bold360 Applet
+
+Start Remote Access
+
+Purpose
+
+The possibility to analyze the root-cause or get additional details about an issue via screen sharing speeds up the resolution and helps our organization to delight customers always.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+1
+
+Notes
+
+Screen share session is ‘View Only’. Only 
+the customers main screen can be 
+shared.
+
+Expert Chat 2.0 – Screen Sharing
+
+Screen Sharing (cont.)
+
+To perform a Screen Sharing, 
+please follow the steps 
+described here.
+
+Step 1
+
+Step 2
+
+Check if you are compliant with EUDP flag before 
+getting customer consent for screen sharing. See 
+Customer Information for more details.
+
+Instruct customer for screen share session, you can use 
+the canned  messages /ps-screenshare1, 2, 3
+
+Click on ‘Start Remote Access’ button.
+
+Customer to accept request and download executable 
+(5MB).
+
+Customer to start executable.
+
+Customer screen will appear in Agent Workspace.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Screen Sharing
+
+Screen Sharing (cont.) 
+
+To perform a Screen Sharing, 
+please follow the steps 
+described here.
+
+Step 3
+
+To close screen sharing session, it can be done by 
+the engineer or by the customer
+
+It will be automatically closed when ending the chat 
+conversation
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Expert Chat 2.0 – Screen Sharing
+
+Screen Sharing (cont.) 
+
+To perform a Screen Sharing, 
+please follow the steps 
+described here.
+
+Full Screen
+
+During a screen share session you may enter full screen mode 
+by using the full screen button 
+
+Using the full screen option, you can move the chat window and 
+chat with the customer.
+
+Exit full screen mode by pressing ‘Esc’ on your keyboard.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Notes
+
+Best practice is to call customer before going into 
+full screen mode to facilitate the communication
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 7, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Expert Chat 2.0 – Unresponsive Customers
+
+Guidelines to handle Expert Chats sessions when the customer is unresponsive
+
+▪ Rephrase your last reply to ping the customer again
+
+▪ Give warning after 5 minutes using the canned message /ps-unrespon5 
+
+▪ End session after additional 5 minutes after the 5 minutes warning  using the canned message /ps-unrespon10
+
+▪ In case the customer replies, you continue and if they become unresponsive again the warning may come after 5 minutes.
+
+▪ Not applicable if the customer explicitly asks for short break! 
+
+Notes
+
+You use Canned Messages to 
+facilitate the communication with 
+the customer.
+
+Important to document 
+unresponsive messages in the 
+transcript before ending the Chat 
+session 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 7, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Warm Handover
+At A Glance
+
+4 Steps for Warm Handover
+
+Inform the Customer
+
+Find an Expert
+
+Discuss the Issue
+
+Transfer the Interaction
+
+Purpose
+
+Warm Handover allows us to seamlessly manage the customer issue and provides the best opportunity to resolve in real time.  It also demonstrates to the customer that we care and are empathetic to their needs 
+and solving their issue quickly.
+
+It is important to keep the customer informed during the handover process.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Expert Chat 2.0 – Warm Handover
+
+Warm Handover (cont.)
+
+To perform a Warm 
+Handover, please follow the 
+steps described here.
+
+Step 1
+
+Before looking for an expert to warm handover the 
+interaction, the customer should be informed.
+
+You can take advantage of the canned message  
+/ps-lookingforexpert or add your own response:
+
+“Your question belongs to another expert area. Let 
+me check  if someone is available.”
+
+Type /ps-lookingforexpert or your customized 
+message in the chat window.
+
+For warm handovers to CIC, the canned message 
+/ps-gotocic can be used.
+
+Step 2
+
+After informing the customer about the warm handover 
+process, it is necessary to find an Expert in the receiving 
+area following the steps below:
+
+Click the Discuss button, it will open the Choose 
+discussion partner panel
+
+Select the receiver Expert Chat queue
+
+Click the Send Request button
+
+Notes
+
+Do not inform the customer that 
+you will forward the Interaction to 
+another Expert, unless you 
+already know that an Expert is 
+available in the area.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Expert Chat 2.0 – Warm Handover
+
+Warm Handover
+
+To perform a Warm 
+Handover, please follow the 
+steps described here.
+
+Step 3
+
+On Bold360, there is a Discussion interaction, an embedded instant messaging 
+functionality where you can discuss the issue before transferring the interaction.
+
+The receiving engineer will see the Discussion displayed as a new Panel under 
+Discussions.  Click to accept.
+
+As receiving engineer you can see the chat history with the customer.
+
+You can discuss the issue with the sending Engineer before accepting the handover.
+
+Step 4
+
+After an acknowledgement from the receiving engineer that 
+they will take the Chat, the interaction can be transferred.
+
+Inform the customer that you will transfer the interaction to 
+another Expert.
+
+Click the Transfer to button in Discussion Panel to transfer the 
+interaction to the receiving engineer.
+
+The warm handover process is concluded now.
+
+Notes
+
+The sending engineer must 
+receive a confirmation of the area 
+from the receiving engineer.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 6, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Expert Chat 2.0 – Wrap up
+
+Expert Chat Session Wrap-up 
+
+Wrap-up labels are used to categorize Expert Chat session to generate quantitative data for further analysis and improvements.
+
+During an Expert Chat session that is active or ended you can select a wrap-up label to categorize the interaction.
+
+To categorize an interaction 
+using Wrap-up, please follow 
+the steps described here.
+
+Step 1
+
+Step 2
+
+On conversation panel, click on “My Wrap-up” 
+button
+
+Select a wrap-up category and an appropriate 
+label
+
+Step 3
+
+Click on “Save”
+
+Notes
+
+Wrap-up labels are mandatory. 
+Expert Chat session cannot be 
+closed without selecting a label.
+
+If an ended session is not 
+wrapped-up it will still count as an 
+active session.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+Secondary title if needed
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Reilly, Ruth; Rodden, 
+Stephen; Nagy, Janos; 
+Sipocz, Eszter; Iturbe, 
+Lucia; Maier, Bernd; Park, 
+Jung In Kumar, Santhosh; 
+Tang, Claire; Murray, Chris 
+H
+
+February 21, 2019
+
+▪ New document for Bold360
+
+1.1.0
+
+Melinda Ludanyi
+
+May 7, 2019
+
+▪ WIPS 4.0 Initial Document
+
+1.1.1
+
+Lisandro Magnus
+
+November 22, 2019 ▪ Document Template Update
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Lisandro Magnus, Brasil
+Process owner
+
+Status
+
+Released
+
+Draft
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+

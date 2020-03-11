@@ -1,0 +1,4638 @@
+Create a Problem
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Create a Problem
+
+Purpose
+
+A Problem record is created to:
+▪ Capture all necessary information from the related cases/incidents.
+▪ Request the responsible development and/or operations teams to identify the cause of a reported issue.
+
+The document explains two options to create a Problem record in NOW system.
+
+1. Create a Problem Record 
+
+Option A: Create Problem via Case/Incident Module
+
+Option B: Create Problem via Problem Module
+
+1a Navigate to Case/Incident Module and create the new Problem 
+record
+
+1b Fill in the mandatory fields in the Problem record and save the 
+Problem
+
+1a Navigate to Problem Module and create the new Problem record
+
+1b Fill in the mandatory fields in the Problem record and assign the 
+Problem
+
+Notes
+
+When to use which option?
+
+It is recommended to create Problem record via the Case 
+or Incident Module if there is already Case/Incident record 
+opened as some of the existing information can be 
+replicated from the Case/incident record directly to the 
+Problem record.
+
+When an issue is detected without any Case/Incident 
+record being created, it is recommended to create 
+Problem record via the Problem Module.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Create a Problem Record
+Problem Management
+
+Option A: Create Problem via Case/Incident Module
+
+1a Navigate to Case/Incident Module and create the new Problem record
+
+Step 1
+
+Step 2
+
+Step 2
+
+Open List view and click Case or 
+Incident Module.
+
+Click the Case Number to open the Case record.
+
+Click the 3-dot graphic (…), and then select Create Problem.
+
+Notes
+
+This Work Instruction uses Case 
+as the example for all the 
+screenshots. However, creating 
+Problem record from the Incident 
+record follows the same steps, 
+except that one must navigate to 
+the Incident Module when 
+performing Step 1a.
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Notes
+
+Only Cases/Incidents that are not in the state NEW allow the creation of 
+Problem record via the Case/Incident Module.
+
+1. Create a Problem Record
+Problem Management
+
+Option A: Create Problem via Case/Incident Module
+
+1b Fill in the mandatory fields in the Problem record and assign the Problem
+
+Step 1
+
+Fill in the available information in the newly created 
+Problem record to provide more information to the 
+Problem Coordinator and the Processor(s).
+
+The following fields are mandatory to fill in:
+
+a. Component (auto-populated)
+
+b. Assignment group (auto-populated)
+
+c. Subject
+
+d. Description
+
+Step 2
+
+Click Save to save and update the Problem record.
+
+The Problem’s state becomes New. 
+
+b
+
+a
+
+c
+
+d
+
+Notes
+
+▪
+
+▪
+
+▪
+
+Some of the fields, such as Component and 
+Subject, are auto-populated from the source 
+record (i.e. Case and Incident). 
+
+The field Assignment group is auto-populated 
+based on the predefined routing rule. 
+
+The Case/Incident record’s state changes to 
+Awaiting Info and the Action Status changes to 
+Awaiting Problem.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Create a Problem Record
+Problem Management
+
+Option A: Create Problem via Case/Incident Module
+
+1b Fill in the mandatory fields in the Problem record and assign the Problem
+
+Step 3
+
+Once the Problem record is saved, the Problem record has the Case number listed in Details section as Requested 
+by and also the associated Case record saved in the Cases tab in the Problem record. 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+1. Create a Problem Record
+Problem Management
+
+Option B: Create Problem via Problem Module
+
+1a Navigate to Problem Module and create the new Problem record
+
+Step 1
+
+Step 2
+
+Open List view and click Problem
+Module.
+
+Click New to open a new Problem record.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+1. Create a Problem Record
+Problem Management
+
+Option B: Create Problem via Problem Module
+
+1b Fill in the mandatory fields in the Problem record and assign the Problem
+
+Step 1
+
+Fill in the available information in the newly created 
+Problem record. 
+
+The following fields are mandatory.
+
+a. Component
+
+b. Subject
+
+c. Description
+
+Step 2
+
+Click Save to save and update the Problem record. 
+Once saved, this record will be given a 10-digit 
+record number for future reference. The 
+Assignment group will also be auto-populated 
+based on predefined routing rules.
+
+The Problem’s state becomes New. 
+
+a
+
+b
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Change Log
+Problem Management – Create a Problem
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Siri Sood
+
+July 01, 2019
+
+▪ Baseline version, incorporated process owner’s comments
+
+2.0.0
+
+Wei Wei
+
+Nov 14, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Validate, Prioritize, Categorize, and Assign a Problem
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+a Problem
+
+Validate, Prioritize, Categorize, 
+
+and Assign a Problem
+
+Purpose
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Problem Coordinator validates, prioritize, and categorize the Problem record to ensure all information has been captured accurately and completely and assigns the Problem to the responsible development and/or 
+operations teams to perform Root Cause Analysis.
+
+1. Problem Coordinator Validates the Problem
+
+2. Problem Coordinator Prioritizes, Categorizes, and Assigns 
+the Problem to Problem Processor
+
+1a Problem Coordinator assigns the Problem record to himself
+
+2a Verify and change the priority if necessary
+
+1b Assess the Problem to ensure all necessary information is provided
+
+1c Reject the Problem if it’s invalid (if applicable)
+
+Scenario 1: There is existing Problem record with similar issue
+
+Mark the new Problem record as duplicate
+
+Scenario 2: There is lack of reason to continue the work
+
+Cancel the Problem record
+
+2b Add relevant stakeholders to the Watch list and/or Internal note list and update 
+External/Internal info
+
+2c Confirm the Problem record’s validity to start Root Cause Analysis
+
+2d Assign the Problem to the processor to work on the reported issue
+
+Notes
+
+Step 1c can also be performed at later stage during RCA analysis or solution implementation.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Coordinator Validates the Problem
+Problem Management
+
+1a Problem Coordinator assigns the Problem record to himself
+
+Step 1
+
+Step 2
+
+Open List view and click Problem Module.
+
+Click Unassigned For My Groups in the list to view all Problems that have not been assigned to any processor. 
+
+Then click the Problem Number to open the selected record.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+1. Coordinator Validates the Problem
+Problem Management
+
+1a Problem Coordinator assigns the Problem record to himself
+
+Step 1
+
+The Problem Coordinator adds his name to the field Internal 
+notes list in order to receive any future internal update and 
+comment posted in the record.
+
+Step 2
+
+The Problem Coordinator adds his name to the field Problem 
+Coordinator.
+
+Step 3
+
+Click Assess to start the process of assessing the problem. 
+This changes the state of the record to Assess.
+
+2
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Coordinator Validates the Problem
+Problem Management
+
+1b Assess the Problem to ensure all necessary information is provided
+
+Step 1
+
+Step 2
+
+Check that all mandatory fields are correctly filled to ensure the completeness and correctness of the 
+information provided.
+
+Contact the requestor for any missing information or clarification using External Info 
+and other communication channels if applicable. 
+
+a
+
+b
+
+c
+
+Notes
+
+The mandatory fields for assessing 
+Problem are:
+a. Component
+b. Subject
+c. Description
+
+Message Flow
+
+▪ If the Problem is created from 
+
+Case/Incident, the External Info 
+sent from Problem will be displayed 
+in Activity section as the Internal 
+Info in the Case/Incident record.
+
+▪ If the Problem is created without 
+
+related Case/Incident, the External 
+Info sent from Problem will be sent 
+to the creator of this Problem record 
+and documented in the Problem 
+record’s Activity section.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+1. Coordinator Validates the Problem
+Problem Management
+
+1c Reject the Problem if it’s invalid (if applicable)
+
+Scenario 1 There is existing Problem record with similar issue. 
+
+Steps:
+
+1. Click Mark Duplicate. 
+
+2. Add the existing (previously opened) Problem record number (PRBXXXXXXX) to the field Duplicate of in the 
+
+Resolution Information section of the Details tab.
+
+This auto-populates the fields of Marked duplicate by with the processor’s name, Marked duplicate with the current 
+date, and Resolution code as Duplicated. 
+
+3. Close the red warning banner and then click Mark Duplicate again to close this record. 
+
+It also closes the newly created Problem record and changes the state of the Problem record to Closed.
+
+1
+
+3
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+1. Coordinator Validates the Problem
+Problem Management
+
+1c Reject the Problem if it’s invalid (if applicable)
+
+Scenario 2 There is lack of reason to continue the work. 
+
+Steps:
+
+1. Click Cancel. 
+
+Notes
+
+Examples of scenario 2 are:
+
+1. Lack of resource an/or budget for further 
+
+investigation
+
+2. Resolution cannot be found within reasonable 
+
+investment
+
+3. There is no resolution
+
+2. Provide reason of cancelation in the field Canceled reason in the Resolution Information section in Details tab.
+
+3. Close the red warning banner and then click Cancel again to close this record.
+
+1
+
+3
+
+This auto-populates the fields of Canceled by with the processor’s name, Canceled with the current date, and 
+Resolution code as Canceled. It also closes the record and changes the state of the Problem record to Closed.
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+2. Coordinator Prioritizes, Categorizes, and Assigns the Problem
+Problem Management
+
+2a Verify and change the priority if necessary
+
+Step 1
+
+Verify whether the chosen priority level is accurate.
+
+If not, click Priority and choose the correct level from 
+the dropdown list.
+
+Step 2
+
+Select Message type as Internal Info and enter the 
+reason for the priority adjustment in the Message filed.
+
+2
+
+Step 3
+
+Click Save to post the internal notes and update the 
+record. 
+
+3
+
+1
+
+Notes
+
+Priorities
+
+Priorities are categorized into the 
+following 4 levels.
+
+▪ 1 – Very High
+
+▪ 2 – High 
+
+▪ 3 – Medium
+
+▪ 4 – Low 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+2. Coordinator Prioritizes, Categorizes, and Assigns the Problem
+Problem Management
+
+2b Add relevant stakeholders to the Watch list and/or Internal note list and update Internal/External info
+
+Step 1
+
+Add all relevant stakeholders to the Watch list and/or 
+Internal notes list.
+
+Step 2
+
+Select the applicable Message type based on the type 
+of the audience for the information and update.
+
+Step 3
+
+Write down the information and update as Internal Info 
+and/or External Info accordingly in the Message field.
+
+Step 4
+
+Click Save to update the record. The system will 
+automatically send notification email regarding the new 
+message to the corresponding lists based on the 
+Message type.
+
+2
+
+3
+
+1
+
+4
+
+Notes
+
+The message types are categorized and 
+explained as follows:
+
+▪ Draft: message that is not ready to be 
+
+sent
+
+▪ Internal Info: message that is sent to 
+
+stakeholders listed in Internal notes list
+only and remains within the current 
+record
+
+▪ External Info: message that is sent to 
+stakeholders listed in both Watch list 
+and Internal notes list and is displayed in 
+the source record as Internal Info (if any).
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+2. Coordinator Prioritizes, Categorizes, and Assigns the Problem
+Problem Management
+
+2c Confirm the record to start Root Cause Analysis
+
+Step 1
+
+Click Confirm to approve that this Problem record is valid for further investigation. 
+
+This changes the state of the Problem record to Root Cause Analysis.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+2. Coordinator Prioritizes, Categorizes, and Assigns the Problem
+Problem Management
+
+2d Assign the Problem to the processor to work on the reported issue
+
+Step 1
+
+Add the processor that will start to work on this Problem record to the 
+Assigned to field.
+
+Alternatively, the Coordinator may also assign the record to the group 
+that is going to process the record by changing the Assignment 
+group field. Processors in this new group will either self-select or be 
+assigned to this record afterwards.
+
+Step 2
+
+Select Internal Info as the Message type and inform the processor 
+to provide workaround in the Message field.
+
+Step 3
+
+Click Save to post the internal information to the record.
+
+3
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+10
+
+2. Coordinator Prioritizes, Categorizes, and Assigns the Problem
+Problem Management
+
+2d Assign the Problem to the processor to work on the reported issue
+
+The processor is notified via emails about the new assignment and 
+the next steps. 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+11
+
+Change Log
+Problem Management – Validate, Prioritize, Categorize, and Assign a Problem
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramya B
+
+July 17,2019
+
+▪ WIPS 4.0 Initial document
+
+2.0.0
+
+Wei Wei
+
+Nov 12, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+12
+
+Diagnose and Define a Problem
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+a Problem
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Diagnose and Define a Problem
+
+Purpose
+
+The assigned development and/or operations team diagnoses the root cause, impact, and symptoms of the problem to define problem resolution. 
+
+The advisor from development and/or operations teams verifies and approves the root cause information for implementation.
+
+1. Provide Workaround (if applicable)
+
+Option A: Perform and Approve RCA Using Problem 
+Record
+
+Option B: Perform and Approve RCA Using Problem 
+Task Record
+
+1a Processor adds the workaround and informs the Problem 
+Coordinator about the workaround
+
+1b Problem Coordinator communicates the workaround to the 
+related cases/incidents (if applicable)
+
+Notes
+
+When to communicate workaround?
+
+Step 1 Provide Workaround can also be performed at 
+later stage during RCA analysis or solution implementation.
+
+Problem Task Processing in UI16 only
+
+Problem Task can only be processed in UI16 for the 
+moment. However, coordinator can create the Problem 
+Task in both UI 16 and Agent Workspace.
+
+2. Perform Root Cause Analysis (RCA)
+
+2. Perform Root Cause Analysis (RCA)
+
+2a Coordinator reassigns Problem record to processor
+
+2b Processor performs RCA, documents findings, and informs 
+the Coordinator once RCA is completed
+
+3. Review and Approve RCA
+
+3a Coordinator reassigns the Problem record to the approver’s 
+assignment group
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+3c If RCA is rejected, the Approver reassigns the record back to 
+Problem Processor to repeat Step 2 Perform Root Cause 
+Analysis
+
+2a Coordinator creates a new Problem Task record and assigns 
+the task to specific assignment group to perform RCA 
+
+2b Processor from the new assignment group either self selects 
+or is assigned to the Problem Task
+
+2c Processor performs RCA, documents findings, closes the Task 
+record, and informs the Coordinator
+
+3. Review and Approve RCA
+
+3a Coordinator creates a new Problem Task for review and 
+assigns the task to specific assignment group to approve RCA 
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+3c If RCA is rejected, the Approver reassigns the record back to 
+Problem Processor to repeat Step 2 Perform Root Cause Analysis
+
+Available in UI16 only
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Provide Workaround (if applicable)
+Problem Management
+
+1a Processor adds the workaround and informs the Problem Coordinator about the workaround
+
+Step 1
+
+Step 2
+
+Click TAKE ME TO THE PROBLEM link in the email notification to open the Problem record.
+
+Provide workaround information (if any) in the Workaround field inside the Analysis Information section. 
+
+Click Save to update the record. 
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+1. Provide Workaround (if applicable)
+Problem Management
+
+1a Processor adds the workaround and informs the Problem Coordinator about the workaround
+
+Step 3
+
+Select Internal Info as the Message type and write a note in the Message field to inform the Problem 
+Coordinator that the workaround has been provided. 
+
+Click Save to update the record
+
+Problem Coordinator will be notified via email for the review of the workaround. 
+
+1
+
+3
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Provide Workaround (if applicable)
+Problem Management
+
+1b Problem Coordinator communicates the workaround to the related cases/incidents (if applicable)
+
+Step 1
+
+Problem Coordinator opens the Problem record and ensures that the workaround information provided in the record is correct. 
+
+Step 2
+
+Click Communicate Workaround to send the information to the related Case/Incident. 
+
+Once the workaround is communicated to the related Case/Incident, the information is displayed in the 
+Activity stream of the source record.
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option A: Perform and Approve RCA Using Problem Record
+
+2a Coordinator reassigns Problem record to processor
+
+Step 1
+
+If the processor for the RCA is different from the 
+processor for the workaround, add the specific Problem 
+Processor that is going to perform the RCA to the 
+Assigned to field and click Save to update the record.
+
+The added processor will receive notification email 
+automatically generated by the system about the new 
+assignment.
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+2a Coordinator reassigns Problem record to processor
+
+Step 2
+
+Select Internal Info as the Message type and inform 
+the processor to perform RCA in the Message field. 
+
+Click Save to post the Internal Info to the record. This 
+informs the RCA processor the task that he needs to 
+perform via system-generated email.
+
+3
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option A: Perform RCA by reassigning Problem to processor
+
+2b Processor performs RCA, documents findings, and informs the Coordinator 
+once RCA is completed
+
+Step 1
+
+Once receiving the email notification, the assigned processor performs the Root Cause Analysis 
+accordingly.
+
+Step 2
+
+When root cause is found, the processor documents the RCA findings in the Analysis Information
+section AND Resolution Information section.
+
+The following fields are mandatory to be filled in:
+
+a. Cause notes (in Analysis Information section)
+
+b. Affected area (in Resolution Information section)
+
+c. Root cause (in Resolution information section)
+
+If there is sub classification of the affected area available and applicable, fill in the Affected sub area 
+field too.
+
+Step 3
+
+Click Save to update the record,
+
+Step 4
+
+To inform Problem Coordinator about the final completion of RCA, select Internal info as the Message 
+type in the Communication section and provide the information in the Message field. 
+
+Click Save again to post the notes. 
+
+This notifies all stakeholders listed in the Internal notes list.
+
+a
+
+b
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+3. Review and Approve RCA
+Problem Management
+
+Option A: Perform RCA by reassigning Problem to processor
+
+3a Coordinator reassigns the Problem record to the approver’s assignment group
+
+Step 1
+
+Step 2
+
+Once notified about the completion of the root cause analysis by the processor, click 
+TAKE ME TO THE PROBOEM in the email to open the Problem record.
+
+Check and ensure that the RCA information documented in the fields Cause notes, Affected area, Affected 
+sub area (if applicable), and Root cause is complete. 
+
+Notes
+
+Coordinator approving RCA:
+
+If no additional approver is 
+required to review and approve 
+the RCA, the Coordinator can 
+directly use Internal Info to 
+approve the RCA findings.
+
+Click here to see how to approve 
+RCA using Internal Info.
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+3. Review and Approve RCA
+Problem Management
+
+Option A: Perform RCA by reassigning Problem to processor
+
+3a Coordinator reassigns the Problem record to the approver’s assignment group
+
+Step 3
+
+Select Internal Info as the Message type and inform the 
+approver to review and approve the RCA in the Message field. 
+
+Change the Assignment group to the approver’s team. 
+
+Alternatively, directly assign the record to the individual approver 
+if the Coordinator knows the name using Assigned to field.
+
+Step 4
+
+Click Save to update the record.
+
+3
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+3. Review and Approve RCA
+Problem Management
+
+Option A: Perform RCA by reassigning Problem to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+3c If RCA is rejected, the Approver reassigns the record back to Problem Processor to repeat Step 2 Perform Root Cause Analysis
+
+Step 1
+
+Step 2
+
+Once receiving the system-generated notification email about the new assignment to review RCA, click TAKE ME TO THE 
+PROBOEM in the email to open the Problem record.
+
+Review RCA information documented in the fields Cause notes, Affected area, Affected sub area
+(if applicable), and Root cause. 
+
+Notes
+
+Assigning individuals to Problem 
+record
+
+If the Coordinator has not assigned 
+the Problem to individuals, or if the 
+Problem Coordinator assigns the 
+Problem only to assignment group, 
+add the name of the processor to the 
+Assigned to field and click Save first 
+before performing any other step.
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+10
+
+3. Review and Approve RCA
+Problem Management
+
+Option A: Perform RCA by reassigning Problem to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+3c If RCA is rejected, the Approver reassigns the record back to Problem Processor to repeat Step 2 Perform Root Cause Analysis
+
+1
+
+4
+
+2
+
+Step 3
+
+Select Internal Info as the Message type and approve or 
+reject the RCA with reasons in the Message field. 
+
+Step 4
+
+Click Save to update the record.
+
+The approval or rejection is captured in the Activity stream 
+and a notification will be sent via email.
+
+Note for rejecting RCA: 
+
+If the RCA is rejected, the approver adds the Problem 
+Coordinator’s name to Assigned to field before saving 
+the record. The Coordinator and Processor need to repeat 
+the step Perform Root Cause Analysis until the RCA is 
+approved.
+
+Notes
+
+Message type to select for the approval 
+process:
+
+▪ Approver can also select External Info 
+
+when approving or rejecting the RCA if there 
+is a need to inform stakeholders on the 
+Watch list.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+11
+
+3
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2a Coordinator creates a new Problem Task record and assigns the task to specific assignment group to perform RCA 
+
+What is problem task?
+
+Step 1
+
+Go to Problem Tasks tab and click New to open a new Task record.
+
+1
+
+2
+
+A problem task is the smallest unit of work that you should perform to complete a 
+problem. A problem can be divided into multiple problem tasks which can then be 
+easily assigned to different assignment groups or processers.
+
+The Problem Task records capture individual tasks for this Problem record and can be 
+worked on by different processors in parallel. 
+
+What is the purpose of using Problem Task records?
+
+The Problem Task records are only used as task reminder and KPI calculation for the 
+problem management process. The assigned processor or approver should ALWAYS use 
+the Problem record to document the result of the root cause analysis. 
+
+You do not need to document the result in the Problem Task records, but you can use the 
+task records to post internal notes. The Problem record can be closed with open Problem 
+Tasks. Once the Problem is closed, all the task records will be automatically closed.
+
+What are the types of Problem Task record?
+
+▪ Root Cause Analysis: Task to investigate the root cause of a problem and if 
+
+possible find a resolution for the problem
+
+▪ Root Cause Analysis Review: Task to approve or reject the result of the RCA
+
+▪ Corrective Task: Task to correct the occurred issue
+
+▪ Preventive Task: Task to prevent the recurring issue from happening in the future
+
+▪ General: All other tasks
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+12
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2a Coordinator creates a new Problem Task record and assigns the task to specific assignment group to perform RCA 
+
+Step 2
+
+Fill in the following mandatory fields in the Problem Task 
+record:
+
+a. Type (Root Cause Analysis)
+
+b. Component (auto-populated, but can be adjusted)
+
+c. Assignment group (manual selection)
+
+d. Subject (This field is auto-populated based on the 
+
+Subject of the Problem record. Change the Subject for 
+this task record if necessary)
+
+e. Description 
+
+You may also use Internal Info under the Notes section to 
+leave any comment for the processor.
+
+Step 3
+
+Click Save to update the record.
+
+a
+
+b
+
+d
+
+e
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+13
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+UI16 ONLY
+
+Notes
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2b Processor from the new assignment group either self selects or is assigned to the Problem Task
+
+You may skip this slide and go to Favorites tab in the Application Navigator 
+to see your saved lists if you have created and saved this list before. 
+
+Click here to see how to save the filtered list as your favorite for future use.
+
+Step 1
+
+Go to UI16 Platform: https://itsm.services.sap/
+
+In the Application Navigator, select Service Desk and then 
+go to My Groups Work to see all records and tasks assigned 
+to your assignment group.
+
+Step 2
+
+Click the Filter icon on the top left corner to open the filter.
+
+Step 3
+
+Click AND to add new criteria. Select Problem Task (+) in the 
+field list first to open the dot-walking list. Then open the field 
+list again and  select Type under Problem Task. 
+
+Add the following criteria:
+
+Type is Root Cause Analysis.
+
+Step 4
+
+Click Run to update the new filtering conditions.
+
+Step 5
+
+Click the Problem Task Number to open one Problem Task 
+record from the filtered list. 
+
+Notes
+
+Click here to know more about dot-walking.
+
+2
+
+4
+
+1
+
+5
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+14
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2b Processor from the new assignment group either self selects or is assigned to the Problem Task
+
+UI16 ONLY
+
+2
+
+2
+
+1
+
+Step 6
+
+In the case that processor has to self-assign the task 
+to himself, add his own name to Assigned to field.
+
+If you need to assign the Problem Task to someone 
+else, add his/her name to Assigned to field. You 
+may also leave an Internal Info (in Notes section) 
+(optional) and click Post to send this comment to 
+the record.
+
+Step 7
+
+Right-click mouse in the title bar to open the form’s 
+context menu and click Save to update the record 
+for this new assignment.
+
+If you’ve assigned the task to another processor and 
+would like to save and close the record, click Update
+to update and close this record.
+
+Notes
+
+Difference between UI actions Save and 
+Update:
+
+Clicking Save will save the changes made to he 
+record WITHOUT existing the form view.
+
+Clicking Update will save the changes made to 
+the record AND return to the previously viewed 
+page.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+15
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+Step 1
+
+Click Assess to start the assessment of the Problem 
+Task and check the feasibility of performing RCA.
+
+This changes the state of the Problem Task to 
+Assess.
+
+Add information or comment as needed using 
+Internal Info in the Notes tab and click Post to send 
+the information whenever necessary during the 
+assessment.
+
+Step 2
+
+Click Start Work to start the Root Cause Analysis.
+
+This changes the state of the Problem Task to Work 
+in Progress.
+
+UI16 ONLY
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+16
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+UI16 ONLY
+
+Step 3
+
+Once the root cause has been found, open the 
+Problem record of this Problem Task record:
+
+1. Go to Problem field in the Problem Task record
+
+2. Click Information Icon next to the Problem 
+
+Number to preview the Problem record.
+
+3. Click Open Record to open the Problem record.
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+17
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+UI16 ONLY
+
+Step 4
+
+Scroll down the webpage for the Problem record to 
+the tabs and document the cause in details in the 
+Cause notes field in the Analysis Information tab. 
+
+You may also provide workaround in the 
+Workaround field at this point of time if the 
+workaround has only been found now.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+18
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+UI16 ONLY
+
+Step 5
+
+Fill in the following mandatory fields in the 
+Resolution Information tab:
+
+a. Affected area
+
+b. Affected sub area
+
+c. Root cause
+
+If necessary, you may also go to Communication
+tab, select Internal Info as the Message type and 
+leave any comment in the Message field. 
+
+Step 6
+
+Click Update to save and close the record.
+
+This brings you back to the Problem Task record.
+
+a
+
+b
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+19
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+UI16 ONLY
+
+Step 7
+
+Go to Problem Task record, click Complete to close 
+the RCA Problem Task assigned to you. 
+
+This moves the state of the Problem Task to Closed
+and the record becomes read-only.
+
+The Problem Coordinator will be automatically 
+notified via email about the closure of the RCA task.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+20
+
+2. Perform Root Cause Analysis (RCA)
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+2c Processor performs RCA, documents findings in the Problem record, and informs the Coordinator
+
+UI16 ONLY
+
+Step 8
+
+If the RCA is later rejected by the approver, the 
+Problem Coordinator reopens a closed Problem 
+Task by clicking Re-Assess. This changes the state 
+of the Problem Task to Assess and the record 
+becomes editable again.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+21
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3a Coordinator creates a new Problem Task for the review
+
+Step 1
+
+Once receiving the system-generated notification email about the completion of the RCA Problem Task, 
+click TAKE ME TO THE PROBOEM in the email to open the Problem record.
+
+Step 2
+
+Check the RCA findings saved in the 
+Problem record under the following 
+fields:
+
+a. Cause notes
+
+b. Affected area
+
+c. Affected sub area (if applicable)
+
+d. Root cause
+
+a
+
+b
+
+c
+
+d
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+22
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3a Coordinator creates a new Problem Task for the review
+
+Step 3
+
+Follow the steps here to create a new Problem Task for the RCA 
+review. 
+
+Assign this task to the specific assignment group for RCA 
+approval by filling in the Assignment group field. Alternatively, 
+assign the task to a known approver using Assigned to field.
+
+Important Note: Choose Root Cause Analysis Review as the 
+Type of the Task record.
+
+Step 4
+
+Click Save to update the record.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+23
+
+3. Review and Approve RCA
+Problem Management
+
+UI16 ONLY
+
+Notes
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+You may skip this slide and go to Favorites tab in the Application Navigator 
+to see your saved lists if you have created and saved this list before. 
+
+Click here to see how to save the filtered list as your favorite for future use.
+
+Step 1
+
+Go to UI16 Platform: https://itsm.services.sap/
+
+In the Application Navigator, select Service Desk and then 
+go to My Groups Work to see all records and tasks assigned 
+to your assignment group.
+
+Step 2
+
+Click the Filter icon on the top left corner to open the filter.
+
+Step 3
+
+Click AND to add new criteria. Select Problem Task (+) in the 
+field list first to open the dot-walking list. Then open the field 
+list again and  select Type under Problem Task. 
+
+Add the following criteria:
+
+Type is Root Cause Analysis Review.
+
+Step 4
+
+Click Run to update the new filtering conditions.
+
+Step 5
+
+Click the Problem Task Number to open one Problem Task 
+record from the filtered list. 
+
+Notes
+
+Click here to know more about dot-walking.
+
+2
+
+4
+
+1
+
+5
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+24
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+Step 6
+
+Add yourself to the Assigned to field to assign this 
+Problem Task to yourself.
+
+Step 7
+
+Click Assess to start the assessment of the feasibility of 
+this task.
+
+This changes the state of the Problem Task to Assess.
+
+UI16 ONLY
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+25
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+Step 8
+
+Once the approver assesses the feasibility of the Problem 
+Task, click Start Work to start the review of the RCA 
+findings.
+
+This changes the state of the Problem Task to Work in 
+Progress.
+
+Step 9
+
+To review the RCA findings and documentation, open the 
+Problem record of this Problem Task record:
+
+1. Go to Problem field in the Problem Task record
+
+2. Click Information Icon next to the Problem Number 
+
+to preview the Problem record.
+
+3. Click Open Record to open the Problem record
+
+UI16 ONLY
+
+1
+
+2
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+26
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+Step 10
+
+Scroll down the webpage for the Problem record to the 
+tabs section and go to Analysis Information tab. 
+
+Review the RCA findings documented in Cause notes 
+field. 
+
+1
+
+UI16 ONLY
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+28
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+UI16 ONLY
+
+Step 11
+
+Go to Resolution Information tab and review the 
+information documented in the following fields:
+
+a. Affected area
+
+b. Affected sub area
+
+c. Root cause
+
+If necessary, you may also go to Communication
+tab, select the Message type and leave your 
+comment in the Message field. 
+
+Step 12 (if applicable)
+
+If you have left any comment in the Communication
+tab, move your mouse to the title bar and right-click 
+your mouse to open the form’s context menu. Click 
+Save to save the assignment change.
+
+a
+
+b
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+29
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+UI16 ONLY
+
+Step 13
+
+After reviewing the findings, scroll down the Problem 
+record’s page to the Related Links section and go to 
+Problem Tasks tab.
+
+Filter for the RCA review Problem Task: 
+
+1. Click the Filter icon on the top left corner to open the 
+
+filter.
+
+2. Set the following criteria:
+
+Type is Root Cause Analysis Review
+
+State is not Closed
+
+3. Click Run to update the new filtering conditions.
+
+4. Click the Problem Task Number to open one 
+
+Problem Task record from the filtered list. 
+
+1
+
+3
+
+4
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+30
+
+3. Review and Approve RCA
+Problem Management
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3b Approver reviews RCA and accepts or rejects the RCA
+
+UI16 ONLY
+
+Step 14
+
+Click Approve or Reject to either approve or reject the 
+RCA findings.
+
+Once approved or rejected, the state of the Problem Task 
+moves to Closed. This record becomes read only.
+
+If necessary, you may also use the Internal Info field 
+under Notes tab to leave any comment for this task 
+before approving or rejecting. Click Post to send this 
+comment.
+
+Step 15
+
+If you need to re-open this record, click Re-Assess. This 
+changes the state of this task back to Assess.
+
+Important Note:
+
+A new RCA Review task should be created and assigned 
+whenever the previous RCA task record has been rejected. 
+This is for the purpose of KPI calculation.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+31
+
+3. Review and Approve RCA
+Problem Management
+
+UI16 ONLY
+
+Option B: Perform RCA by creating Problem Task and assigning to processor
+
+3c If RCA is rejected, the Approver reassigns the record back to Problem Processor to repeat Step 2 Perform Root Cause Analysis
+
+Step 1
+
+Upon rejecting the RCA findings, open the Problem record 
+again (see WIPS entry how to open Problem record from 
+Task record)
+
+Step 2
+
+Assign this Problem Task record to the Problem Coordinator 
+by adding his name to the Assigned to field.
+
+Alternatively, you may also delete the processor’s name in 
+the Assigned to field and inform the Problem Coordinator of 
+the deletion using Internal Info as the Message type in the 
+Communication tab.
+
+Step 3
+
+Click Update to save and close this record.
+
+Step 4
+
+The Coordinator and Processor need to repeat the step 
+Perform Root Cause Analysis until the RCA is approved.
+
+Important Note:
+
+A new RCA Review task should be created and assigned 
+whenever the previous RCA task record has been rejected. 
+This is for the purpose of KPI calculation. However, the 
+Problem Coordinator can reopen the RCA task by clicking 
+Re-Assess. 
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+32
+
+Change Log
+Problem Management – Diagnose and Define a Problem
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.1
+
+Ramya B
+
+July 17,2019
+
+▪ WIPS 4.0 initial document
+
+2.0.0
+
+Wei Wei
+
+Nov 14, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+33
+
+Communicate Problem Diagnosis
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+Diagnose and Define
+
+Communicate Problem 
+
+Diagnosis
+
+Resolve and Realize
+
+Validate and Close
+
+Purpose
+
+Problem Coordinate communicates the RCA to the involved stakeholders to ensure communication transparency 
+among all stakeholders.
+
+Most of the created KBAs are classified as Known Error Articles that capture all necessary information in the 
+Problem records (e.g. workaround, steps reproduce, affected systems, etc.) to deflect future cases/incidents. 
+Once the Known Error Article is published, the problem will be listed in the Known Error Database.
+
+Knowledge Articles – which one to create?
+
+▪ Known Error Articles (KEAs) are created to document the known errors once the 
+
+root cause has been found. KEAs are only created for Problems and can be retired 
+once the known error has been resolved permanently.
+
+▪ Knowledge Base Articles (KBAs) are created to capture and share knowledge 
+across the organization to improve efficiency by reducing the need to discover 
+knowledge. KBAs can be created for any record type (e.g. Case, Incident, Problem).
+
+1. Coordinator communicates RCA (if applicable) 
+
+2. Create or Update Knowledge Articles (if applicable) 
+
+Notes
+
+Scenario A: Problem without related case(s)
+
+Option A: Create or Update Known Error Articles (KEAs)
+
+1a Send RCA to internal stakeholders
+
+Scenario 1: No existing KEA found 
+
+1b Fill in the mandatory fields in the Problem record and save the Problem
+
+See WIPS entry for Create a KEA
+
+1c Notify the group members of the creation of Problem record
+
+Scenario B: Problem with related case(s) and affecting single LoB 
+
+1a Send RCA to both internal stakeholders and Support Engineer who has 
+created the Problem record
+
+1b Support Engineer communicates RCA to affected customer
+
+Scenario 2: Existing KEA found but requires update
+
+Available in future release
+
+See WIPS entry for Update a KEA
+
+Option B: Create or Update Knowledge Base Articles (KBAs)
+
+Scenario 1: No existing KBA found
+
+See WIPS entry for Create a KBA
+
+Scenario C: Problem with related case(s) and affecting multiple LoBs
+
+Scenario 2: Existing KBA found but requires update
+
+1a Send RCA to internal stakeholders and SWAT team
+
+1b SWAT team communicates the RCA to customer
+
+See WIPS entry for Update a KBA
+
+Best Practices for Documenting Resolution
+
+▪ Always search for existing knowledge articles 
+before creating anything new in order to avoid 
+duplicate records. 
+
+▪
+
+If the information provided in the knowledge 
+articles is obsolete, invalid, irrelevant, and/or 
+duplicate, retire the knowledge article whenever 
+necessary.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Coordinator Communicates RCA (if applicable)
+Problem Management
+
+Scenario A: Problem without related case(s)
+
+1a Send RCA to internal stakeholder
+
+Step 1
+
+In the Details tab, locate the Watch list and type or search for the internal 
+stakeholders that you want inform about the RCA.
+
+Step 2
+
+a. Choose External Info.
+
+b. Enter the RCA details in the Message field.
+
+c. Click Save to update the record.
+
+a
+
+b
+
+Notes
+
+Example of internal stakeholders are: manager(s) of the 
+relevant team(s), escalation team if any, customer 
+engagement team, etc.
+
+▪ People who are interested in the outcomes of problem 
+
+and can be added to the Watch list.
+
+▪ People who are interested in the progress and details of 
+
+the problem can be added to Internal notes list.
+
+Distribution list can also be included in the Watch list, 
+however, you need to add the real email address of the DL 
+(e.g. abc123@global.corp.sap).
+
+c
+
+Notes
+
+•
+
+Internal Info is used when 
+communicating within the Problem 
+record. Users who are added to the 
+Internal notes list will also receive the 
+notifications for both Internal and 
+External Info.
+
+• External Info is used when 
+
+communicating both within the 
+Problem record and to the related 
+record(s). Users who are added to the 
+Watch list and the Internal notes list 
+will receive the notifications only for 
+External Info.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+1. Coordinator Communicates RCA (if applicable)
+Problem Management
+
+Scenario B: Problem with related case(s) and affecting single LoB 
+
+1a Send RCA to both internal stakeholders and Support Engineer who has created the Problem record
+
+Step 1
+
+Step 2
+
+Step 3
+
+Notes
+
+Example of internal stakeholders are: manager(s) of the relevant 
+team(s), escalation team if any, customer engagement team, etc.
+
+▪ People who are interested in the outcomes of problem and can be 
+
+added to the Watch list.
+
+▪ People who are interested in the progress and details of the problem 
+
+can be added to Internal notes list.
+
+Distribution list can also be included in the Watch list, however, you need 
+to add the real email address of the DL (e.g. abc123@global.corp.sap).
+
+In the Details tab, locate the Watch list and type or search for the internal 
+stakeholders that you want inform about the RCA.
+
+a. Choose External Info.
+
+c. External info from the Problem will be replicated to the Case and 
+
+visible for Support Engineers in the Activity Stream  
+
+a
+
+b
+
+c
+
+b. Enter the RCA details in the Message
+
+field and Click Save to update the 
+record.
+
+Notes
+
+•
+
+Internal Info is used when 
+communicating within the 
+Problem record. Users who are 
+added to the Internal notes list 
+will also receive the notifications 
+for both Internal and External Info.
+
+• External Info is used when 
+
+communicating both within the 
+Problem record and to the related 
+record(s). Users who are added to 
+the Watch list and the Internal 
+notes list will receive the 
+notifications only for External Info.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Coordinator Communicates RCA (if applicable)
+Problem Management
+
+Scenario B: Problem with related case(s) and affecting single LoB
+
+1b Support Engineer communicates RCA to affected customer
+
+Step 1
+
+Support Engineer is notified through Email and communicate to affected  
+customer by the following :
+
+a
+
+f
+
+a. Open the Case created
+
+b. Go to the Details tab and the Communication section
+
+c. Select Message type as External Info
+
+d. Rephrase the RCA information for the customer in the Message field
+
+e. Add people to Watch list (optional) and Internal notes list (optional)  
+
+f. Click Save to update the record
+
+b
+
+c
+
+d
+
+e
+
+e
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+1. Coordinator Communicates RCA (if applicable)
+Problem Management
+
+Scenario C: Problem with related case(s) and affecting multiple LoBs 
+
+1a Send RCA to internal stakeholders and SWAT team
+
+Step 1
+
+In the Details tab, locate the Watch list  and type or search for the internal 
+stakeholders and SWAT team members that you want inform about the RCA.
+
+Step 2
+
+a. Choose External  Info 
+
+b. Enter the RCA details in the Message field
+
+c. Click Save to update the record
+
+Notes
+
+•
+
+Internal Info is used when 
+communicating within the 
+Problem record. Users who are 
+added to the Internal notes list 
+will also receive the notifications 
+for both Internal and External Info.
+
+• External Info is used when 
+
+communicating both within the 
+Problem record and to the related 
+record(s). Users who are added to 
+the Watch list and the Internal 
+notes list will receive the 
+notifications only for External Info.
+
+a
+
+b
+
+Notes
+
+Example of internal stakeholders are: manager(s) of the relevant 
+team(s), escalation team if any, customer engagement team, etc.
+
+▪ People who are interested in the outcomes of problem and can be 
+
+added to the Watch list.
+
+▪ People who are interested in the progress and details of the problem 
+
+can be added to Internal notes list.
+
+Distribution list can also be included in the Watch list, however, you need 
+to add the real email address of the DL (e.g. abc123@global.corp.sap).
+
+Step 3
+
+Added internal stakeholders and SWAT team will receive an e-mail 
+notification.
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+1. Coordinator Communicates RCA (if applicable)
+Problem Management
+
+Scenario C: Problem with related case(s) and affecting multiple LoBs
+
+1b SWAT team communicates the RCA to customer
+
+Step 1
+
+SWAT team is notified through Email and communicate to affected customer by 
+the following :
+
+a
+
+a. Open the Case created
+
+b. Go to the Details tab and the Communication section
+
+c. Select Message type as External Info
+
+d. Rephrase the RCA information for the customer in the Message field
+
+e. Add people to Watchlist (optional) and Internal notes list (optional)  
+
+f. Click Save to update the record
+
+f
+
+b
+
+c
+
+d
+
+e
+
+e
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Change Log
+Problem Management
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Siri Sood
+
+July 01, 2019
+
+▪ WIPS 4.0 initial document
+
+2.0.0
+
+Nádia Xavier
+
+Nov 21.2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process Manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Implement Problem Resolution
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+a Problem
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Implement Problem Resolution
+
+Purpose
+
+The processor implements the solution to resolve the reported Problem. 
+
+1. Implement Resolution
+
+Scenario 1: Implement code correction for cloud products
+
+1a Coordinator reassigns the Problem to processing group
+
+1b Processor creates code correction request
+
+1c Processor performs code correction and informs coordinator upon completion
+
+Scenario 2: Implement code correction for on-premise products
+
+1a Coordinator reassigns the Problem to processing group
+
+1b Processor creates SAP Notes and documents resolution in Problem
+
+Available in future release
+
+1c Processor informs the coordinator the SAP Notes
+
+Scenario 3a: Implement non-code solution for cloud products with sequential tasks
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1a Coordinator triggers the fix and reassigns the Problem to processing group
+
+1b Processor performs the task and inform Coordinator upon completion
+
+1c Coordinator confirms the completion of the task
+
+1d Coordinator and processor repeat the steps of reassignment and implementation until all 
+subtasks are completed (if necessary)
+
+1a Coordinator triggers the fix, and creates and assigns Problem Task(s) to assignment group(s)
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator
+
+1c Coordinator confirms the completion of the tasks
+
+Notes
+
+Scenario 3: when to use what record?
+
+▪ It is recommended to use the same Problem record and reassign to different processors sequentially when several tasks need to be completed in a defined sequence to implement the solution. 
+▪ It is recommended to create multiple Problem Tasks and assign them to different processors when the multiple tasks can be performed in parallel to implement the solution.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Implement Resolution
+Problem Management
+
+Information before you start
+
+Where to find Code Correction record in NOW?
+
+Once the code creation issue has been created in the 
+development system, the Now system automatically creates a 
+Code Correction record that is linked to the development system 
+if it’s been integrated with NOW. 
+
+The NOW Code Correction record is saved under the Code 
+Corrections tab of the Problem record. It is read only for all the 
+detailed information as such information is replicated from and 
+updated by the linked development system (e.g. Jira). 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+1. Implement Resolution
+Problem Management
+
+Information before you start
+
+What can you do in NOW Code Correction Record?
+
+Although the Code Correction record is read-only in NOW 
+system, you can still use the following functionalities:
+
+1. The Issue ID is the reference number in the development 
+
+system. 
+
+2. Click Copy Issue ID to copy the record ID in NOW 
+
+3. Click Link to Jira to open the JIRA issue record directly in 
+
+the development system. This functionality is only available if 
+the system has been integrated with NOW.
+
+4. Use Respond to this record via comments in the Activity 
+stream and click Post (Alternatively use Comments field in 
+the Details section and click Save) to send internal notes. 
+The comments provided in the NOW Code Correction record 
+will be copied to the development system’s record, and vice 
+versa.
+
+2
+
+3
+
+4a
+
+1
+
+4b
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1a Coordinator reassigns the Problem to processing group
+
+Step 1
+
+Open the Problem record and add the processing group for 
+implementation to the Assignment group field. 
+
+Alternatively, if the Coordinator knows the specific processor’s 
+name, add this name to Assigned to field to directly assign 
+this Problem to the individual processor.
+
+Step 2
+
+Select Internal Info as the Message type and leave a 
+comment in the Message field to inform the next step of 
+implementation.
+
+Step 3
+
+Click Save to update the record. The system automatically 
+notifies all processors in the new assignment group via email 
+about this new assignment.
+
+3
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1b Processor creates code correction request
+
+Applicable for development 
+system integrated with NOW
+
+When a Problem is created with component that has its system integrated with NOW, a Code Correction can be directly created in the development system by clicking the 
+UI action button Create Code Correction.
+
+Step 1
+
+Processor self-assigns the Problem to himself for the 
+implementation by adding his name to the Assigned to field.
+
+Alternatively, the processor may also be already assigned by 
+someone else to the Problem record.
+
+Click here to see how to assign record to yourself or others.
+
+Step 2
+
+Click Start Fix to start the implementation process. This 
+changes the state of the Problem record to Fix in Progress.
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1b Processor creates code correction request
+
+Applicable for development 
+system integrated with NOW
+
+When a Problem is created with component that has its system integrated with NOW, a Code Correction can be directly created in the development system by clicking the 
+UI action button Create Code Correction.
+
+Step 3
+
+Click the 3-dot icon (…) to expand the UI action list (if necessary).
+
+5
+
+Step 4
+
+Click Create Code Correction to open the development system 
+for code creation.
+
+Note: JIRA is used here only for demonstration purpose. Different 
+business units may have different systems linked and opened 
+when clicking Create Code Correction.
+
+Step 5
+
+The code correction system will be opened in the new tab.
+
+Note: Depending on the Data Protection settings, you may need to 
+confirm the pop-up warning for processing EUDP-restricted 
+records before opening the development system.
+
+3
+
+4
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1b Processor creates code correction request
+
+Applicable for development 
+
+system NOT integrated with NOW
+
+When a Problem is created with component that DOES NOT have its system integrated with NOW, a Code Correction record needs to be created in NOW first. Then you need to create 
+a Bug/Issue in your defined development system and link the Bug/Issue with the NOW Code Correction record.
+
+Step 1
+
+Go to Code Corrections tab and click New to open a new Code 
+Correction Record. 
+
+1
+
+Step 2
+
+Once the new Code Correction record is automatically generated, 
+click Save to save this record. 
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1b Processor creates code correction request
+
+Applicable for development 
+
+system NOT integrated with NOW
+
+When a Problem is created with component that DOES NOT have its system integrated with NOW, a Code Correction record needs to be created in NOW first. Then you need to create 
+a Bug/Issue in your defined development system and link the Bug/Issue with the NOW Code Correction record.
+
+Step 3
+
+Step 4
+
+Manually go to the development system and create a Bug/Issue in that system.
+
+Go back to NOW and click Copy Issue ID to copy the NOW Code Correction record’s issue ID. 
+
+3
+
+Step 5
+
+In the development system, paste the NOW Issue ID to 
+the corresponding field (e.g. snowID in TagretProcess) 
+and save the record.
+
+Once this field is updated, the development system 
+automatically sends the Bug/Issue information to NOW 
+and updates the Code Correction record in NOW 
+automatically.
+
+4
+
+5
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1c Processor performs code correction and informs coordinator upon completion
+
+Step 1
+
+Go to the development system, fill in the mandatory information in 
+the development system, and create new issue record in the 
+development system. This record number is automatically 
+documented in the NOW system in the Code Correction record as 
+Issue ID.
+
+Stakeholders listed in the NOW system’s Internal notes list will be 
+automatically notified via system email about the new creation of 
+Code Correction record.
+
+Step 2
+
+Perform the code correction. Then update the closure information 
+in the development system and close the record in the development 
+system. 
+
+Step 3
+
+The NOW Code Correction record is also automatically updated and 
+closed.
+
+Screenshot is only for 
+illustration purpose
+
+Screenshot is only for 
+illustration purpose
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+1. Implement Resolution
+Problem Management
+
+Scenario 1: Implement code correction for cloud products
+
+1c Processor performs code correction and informs coordinator upon completion
+
+Step 4
+
+Go to Communication tab of the Problem record, select Internal Info as the Message type and inform the Problem 
+Coordinator the completion of code correction implementation in the Message field. Click Save to update the record. 
+
+The Problem Coordinator will be notified automatically via system email.
+
+3
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+10
+
+1. Implement Resolution
+Problem Management
+
+Scenario 2: Implement code correction for on-premise products
+
+1a Coordinator reassigns the Problem to processing group
+
+Step 1
+
+Open the Problem record and add the processing group for 
+implementation to the Assignment group field. 
+
+Alternatively, if the Coordinator knows the specific processor’s 
+name, add this name to Assigned to field to directly assign 
+this Problem to the individual processor.
+
+Step 2
+
+Select Internal Info as the Message type and leave a 
+comment in the Message field to inform the next step of 
+implementation.
+
+Step 3
+
+Click Save to update the record. The system automatically 
+notifies all processors in the new assignment group via email 
+about this new assignment.
+
+3
+
+2
+
+Detailed work instructions will be available soon
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+11
+
+1. Implement Resolution
+Problem Management
+
+Scenario 2: Implement code correction for on-premise products
+
+1b Processor creates SAP Notes and documents resolution in Problem
+1c Processor informs the coordinator the SAP Notes
+
+Step 1
+
+Processor self-assigns the Problem to himself for the 
+implementation by adding his name to the Assigned to field.
+
+Alternatively, the processor may also be already assigned by 
+someone else to the Problem record.
+
+Click here to see how to assign record to yourself or others.
+
+Step 2
+
+Click Start Fix to start the implementation process. This 
+changes the state of the Problem record to Fix in Progress.
+
+2
+
+Detailed work instructions will be available soon
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+12
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3a: Implement non-code solution for cloud products with sequential tasks
+
+1a Coordinator triggers the fix and reassigns the Problem to processing group
+
+Step 1
+
+Open the Problem record and click Start Fix.
+
+This changes the state of the Problem record to Fix in 
+Progress. 
+
+The system automatically notifies the current processor of the 
+Problem via email about the state change. If no individual 
+processor is assigned to this Problem, the processors in the 
+current assignment group would be notified instead.
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+14
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3a: Implement non-code solution for cloud products with sequential tasks
+
+1a Coordinator triggers the fix and reassigns the Problem to processing group
+
+Step 2
+
+Add the new processing group for implementation to the 
+Assignment group field. 
+
+Alternatively, if the Coordinator knows the specific processor’s 
+name, add this name to Assigned to field to directly assign 
+this Problem to the individual processor.
+
+Step 3
+
+Select Internal Info as the Message type and leave a 
+comment in the Message field to inform the processor of the 
+next step for the solution implementation.
+
+Step 4
+
+Select Save to update the record. The newly assigned 
+processor (or all processors in the new assignment group if 
+the field Assigned to is empty) will be automatically notified via 
+email about the new assignment.
+
+4
+
+3
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+15
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3a: Implement non-code solution for cloud products with sequential tasks
+
+1b Processor performs the task and inform Coordinator upon completion
+
+Step 1
+
+Once receiving the system-generated email notification for the 
+new assignment, click TAKE ME TO THE PROBLEM link in 
+the email to open the Problem record.
+
+Assign the record to yourself if necessary and click Save to 
+update the record. 
+
+Step 2
+
+Perform the described task(s) according to the email 
+notification received.
+
+Alternatively, you may also find the Internal Info documented 
+in the Activity steam.
+
+Step 3
+
+Select Internal Info as the Message type and inform the 
+Problem Coordinator the completion of your assigned task in 
+the Message field. 
+
+Step 4
+
+Click Save to update the record.
+
+4
+
+3
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+16
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3a: Implement non-code solution for cloud products with sequential tasks
+
+1c Coordinator confirms the completion of the task
+1d Coordinator and processor repeat the steps of reassignment and implementation until all subtasks are completed (if necessary)
+
+Step 1
+
+Step 2
+
+Once notified about the completion of task by the processor, click TAKE ME 
+TO THE PROBOEM in the email to open the Problem record.
+
+Check and confirm that the task has been properly completed by 
+the assigned processor.
+
+Coordinator reassigns the Problem to the next processor and use 
+Internal Info to inform the next processor about the tasks to be 
+performed. Repeat the Steps 1a (task assignment) and  1b (task 
+completion) until all subtasks have been successfully completed.
+
+All tasks assigned can be easily displayed by using the Filter
+functionality in the Activity stream and select Internal Info as the 
+type of activities to display.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+17
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1a Coordinator triggers the fix, and creates and assigns Problem Task(s) to assignment group(s)
+
+Step 1
+
+Open the Problem record and click Start Fix.
+
+This changes the state of the Problem record to Fix in 
+Progress. 
+
+The system automatically notifies the current processor of the 
+Problem via email about the state change. If no individual 
+processor is assigned to this Problem, the processors in the 
+current assignment group would be notified instead.
+
+Step 2
+
+Add the new processing group for implementation to the 
+Assignment group field. 
+
+Step 3
+
+Click Save to update the record. All processors in this new 
+assignment group will be notified via email about the new 
+assignment.
+
+1
+
+3
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+18
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1a Coordinator triggers the fix, and creates and assigns Problem Task(s) to assignment group(s)
+
+What is problem task?
+
+Step 4
+
+Go to Problem Tasks tab and click New to open a new Task record.
+
+1
+
+2
+
+A problem task is the smallest unit of work that you should perform to complete a 
+problem. A problem can be divided into multiple problem tasks which can then be 
+easily assigned to different assignment groups or processers.
+
+The Problem Task records capture individual tasks for this Problem record and can be 
+worked on by different processors in parallel. 
+
+What is the purpose of using Problem Task records?
+
+The Problem Task records are only used as task reminder and KPI calculation for the 
+problem management process. The assigned processor or approver should ALWAYS use 
+the Problem record to document the result of the root cause analysis. 
+
+You do not need to document the result in the Problem Task records, but you can use the 
+task records to post internal notes. The Problem record can be closed with open Problem 
+Tasks. Once the Problem is closed, all the task records will be automatically closed.
+
+What are the types of Problem Task record?
+
+▪ Root Cause Analysis: Task to investigate the root cause of a problem and if 
+
+possible find a resolution for the problem
+
+▪ Root Cause Analysis Review: Task to approve or reject the result of the RCA
+
+▪ Corrective Task: Task to correct the occurred issue
+
+▪ Preventive Task: Task to prevent the recurring issue from happening in the future
+
+▪ General: All other tasks
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+19
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1a Coordinator triggers the fix, and creates and assigns Problem Task(s) to assignment group(s)
+
+Step 5
+
+Fill in the following mandatory fields in the Problem Task 
+record:
+
+a. Type (Click here to see all types of Problem Tasks)
+
+b. Component (auto-populated, but can be adjusted)
+
+c. Assignment group (manual selection)
+
+d. Subject (This field is auto-populated based on the 
+
+Subject of the Problem record. Change the Subject for 
+this task record if necessary)
+
+e. Description 
+
+You may also use Internal Info under the Notes section to 
+leave any comment for the processor.
+
+Step 6
+
+Click Save to update the record.
+
+Step 7
+
+Continue to create all necessary tasks for this 
+implementation of the solution.
+
+a
+
+b
+
+d
+
+e
+
+c
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+20
+
+1. Implement Resolution
+Problem Management
+
+UI16 ONLY
+
+Notes
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+You may skip this slide and go to Favorites tab in the Application Navigator 
+to see your saved lists if you have created and saved this list before. 
+
+Click here to see how to save the filtered list as your favorite for future use.
+
+Step 1
+
+Go to UI16 Platform: https://itsm.services.sap/
+
+In the Application Navigator, select Service Desk and then 
+go to My Groups Work to see all records and tasks assigned 
+to your assignment group.
+
+Step 2
+
+Click the Filter icon on the top left corner to open the filter.
+
+Step 3
+
+Click AND to add new criteria. Select Problem Task (+) in the 
+field list first to open the dot-walking list. Then open the field 
+list again and  select Type under Problem Task. 
+
+Add the following criteria to filter for all non-RCA Problem 
+Tasks:
+
+Problem Task type is not Root Cause Analysis AND
+Problem Task type is not Root Cause Analysis Review.
+
+Step 4
+
+Click Run to update the new filtering conditions.
+
+Step 5
+
+Click the Problem Task Number to open one Problem Task 
+record from the filtered list. 
+
+2
+
+4
+
+1
+
+3
+
+5
+
+Notes
+
+Click here to know more about dot-walking.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+21
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+UI16 ONLY
+
+2
+
+2
+
+1
+
+Step 6
+
+In the case that processor has to self-assign the task 
+to himself, add his own name to Assigned to field.
+
+If you need to assign the Problem Task to someone 
+else, add his/her name to Assigned to field. You 
+may also leave an Internal Info (in Notes section) 
+(optional) and click Post to send this comment to 
+the record.
+
+Step 7
+
+Right-click mouse in the title bar to open the form’s 
+context menu and click Save to update the record 
+for this new assignment.
+
+If you’ve assigned the task to another processor and 
+would like to save and close the record, click Update
+to update and close this record.
+
+Notes
+
+Difference between UI actions Save and 
+Update:
+
+Clicking Save will save the changes made to he 
+record WITHOUT existing the form view.
+
+Clicking Update will save the changes made to 
+the record AND return to the previously viewed 
+page.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+22
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+Step 8
+
+Click Assess to start the assessment of the Problem 
+Task and check the feasibility of the assigned task.
+
+This changes the state of the Problem Task to 
+Assess.
+
+Add information or comment as needed using 
+Internal Info in the Notes tab and click Post to send 
+the information whenever necessary during the 
+assessment.
+
+Step 9
+
+Click Start Work to start the corrective, preventive, 
+or general task in order to implement the solution.
+
+This changes the state of the Problem Task to Work 
+in Progress.
+
+UI16 ONLY
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+23
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+UI16 ONLY
+
+Step 10
+
+Once perform all the required steps and complete 
+the assigned task, click Complete to close the 
+Problem Task record. This changes the state of the 
+Problem Task to Closed.
+
+If necessary, you may use the Internal Info in the 
+Notes section to leave any comment or information 
+regarding this task and click Post to update the 
+record.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+24
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+Step 11
+
+Open the Problem record from the Problem Task 
+record. 
+
+UI16 ONLY
+
+1
+
+2
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+25
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1b Processor(s) execute the Problem Tasks and inform Coordinator 
+
+UI16 ONLY
+
+Step 12
+
+Go to Communication tab and select Internal Info 
+as the Message type. Inform the Problem 
+Coordinator about the completion of the assigned 
+task in the Message field and click Update to post 
+the information and close the Problem record. 
+
+Alternatively, you may right-click mouse in the title 
+bar to open the form’s context menu and click Save
+to update the record without closing it.
+
+2
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+26
+
+1. Implement Resolution
+Problem Management
+
+Scenario 3b: Implement non-code solution for cloud products with parallel tasks
+
+1c Coordinator confirms the completion of the tasks
+
+Step 1
+
+Once notified via email about the completion of tasks, 
+go to Problem Tasks tab of the Problem record and 
+confirm all Problem Tasks have the state as Closed.
+
+Step 2 (UI16 ONLY)
+
+If there is a need to reopen the Problem Task record 
+and request for rework:
+
+1. Copy the Problem Task Number
+
+2. Go to UI16 Platform: https://itsm.services.sap/
+
+3. Paste the task number in  Global Search and hit 
+
+ENTER to open the record
+
+4. Click Re-Assess to open the Task record and 
+
+change the state of the record back to Assess.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+27
+
+Change Log
+Problem Management – Implement Problem Resolution
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramya B
+
+July 17,2019
+
+▪ WIPS 4.0 Initial document
+
+2.0.0
+
+Wei Wei
+
+Nov 12, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+28
+
+Document Problem Resolution
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+a Problem
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Document Problem Resolution
+
+Purpose
+
+The output from Problem Management includes information and documentation concerning workarounds, known 
+errors, and permanent solutions. Documenting the resolutions, especially the permanent solutions, improves 
+organizational learning experience and allows Support Engineers, Developers, and Operators to know how to deal 
+with issues that have previously been resolved and documented.
+
+Developers and operators can document the resolutions in two types of knowledge articles: Knowledge Base Articles 
+(KBAs) and Known Error Articles (KEAs).
+
+Knowledge Articles – which one to create?
+
+▪ Known Error Articles (KEAs) are created to document the known errors once the 
+
+root cause has been found. KEAs are only created for Problems and can be retired 
+once the known error has been resolved permanently.
+
+▪ Knowledge Base Articles (KBAs) are created to capture and share knowledge 
+across the organization to improve efficiency by reducing the need to discover 
+knowledge. KBAs can be created for any record type (e.g. Case, Incident, Problem).
+
+1. Document Resolution in Knowledge Articles
+
+Option A: Document resolution using KBAs
+
+Option B: Document resolution using KEAs
+
+Notes
+
+Scenario 1: No existing KBA found
+
+See WIPS entry for Create a KBA
+
+Scenario 2: Existing KBA found but requires update
+
+See WIPS entry for Update a KBA
+
+Scenario 1: Known error has been successfully resolved 
+with permanent solution
+
+See WIPS entry for Retire a KEA
+
+Scenario 2: Known error will be resolved in the future 
+once permanent solution is available
+
+Available in future release
+
+Scenario 3: Existing KBA found but obsolete or invalid
+
+See WIPS entry for Update a KEA
+
+See WIPS entry for Retire a KBA
+
+Best Practices for Documenting Resolution
+
+▪ Always search for existing knowledge articles before creating 
+
+anything new in order to avoid duplicate records.
+
+▪ If the information provided in the knowledge articles is obsolete, 
+invalid, irrelevant, and/or duplicate, retire the knowledge article
+whenever necessary.
+
+Overview of Knowledge Management
+
+Click here to see the work instructions on the end-to-end Knowledge 
+Management Process. 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Change Log
+Problem Management –Document Problem Resolution
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramya B
+
+July 17,2019
+
+▪ WIPS 4.0 Initial document
+
+2.0.0
+
+Wei Wei
+
+Nov 21, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Validate and Close a Problem
+At a Glance
+
+Problem Management Process
+
+Log and Categorize 
+
+a Problem
+
+Purpose
+
+Diagnose and Define
+
+Resolve and Realize
+
+Validate and Close
+
+Validate and Close a Problem
+
+The Problem record can only be resolved and closed when the proposed permanent solution has been confirmed to resolve the reported issues.
+
+By closing the Problem record, the Problem Coordinate confirms that the root cause (if applicable) and the solution are documented sufficiently and consistently in the Problem record to reasonably mitigates 
+the problem. This ensures the compliance to the applicable audit regulations and requirements. 
+
+1. Coordinator Communicates Solution and Resolves Problem
+
+2. Coordinator Closes the Problem
+
+1a Communicate the permanent solution to related Case/Incident (if applicable)
+
+1b Resolve the Problem and await for confirmation
+
+Scenario 1: Solution is Accepted
+
+2a Update categorization and relevant information for future reference
+
+2b Close the Problem record
+
+Scenario 2: Solution is Rejected
+
+2a Reopen the Problem record
+
+2b Repeat the Problem Management process from validating until the solution has been accepted
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+1. Coordinator communicates and confirms permanent solution
+Problem Management
+
+1a Communicate the permanent solution to related Case/Incident (if applicable)
+
+Note: This step is only necessary when the Problem record has related Case(s) and/or Incident(s) that require permanent solution. 
+
+Step 1
+
+Scenario 1: Cloud product issue requiring code corrections 
+
+Scenario 3: On-premise product issue requiring code correction
+
+Confirm that code corrections have been correctly implemented. The status is Closed and Resolution is Fixed.
+
+Check the solution and the SAP Notes provided in the Resolution information field in the Resolution Information section. 
+
+Scenario 2: Cloud product issue requiring non-code solution
+
+Confirm that all tasks (either described in Problem record’s Activity stream or documented and assigned using Problem 
+Tasks) have been successfully completed and all states are Closed. 
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+1. Coordinator communicates and confirms permanent solution
+Problem Management
+
+1a Communicate the permanent solution to related Case/Incident (if applicable)
+
+Note: This step is only necessary when the Problem record has related Case(s) and/or Incident(s) that require permanent solution. 
+
+Notes
+
+The resolution information (i.e. permanent solution) can be 
+filled in at any point of time when the processor and/or the 
+coordinator has the knowledge of the resolution. 
+
+This field can be edited and more information/steps can be 
+added along the resolution process.
+
+Step 2
+
+Finalize the resolutions and permanent solution in the Resolution information field in the Resolution 
+Information section. 
+
+Click the 3-dot (…) to expand the UI Action list and the click Communicate Fix.
+
+The information provided in the Resolution information field and in the Cause notes field in the Problem record are 
+replicated to the Activity stream of the related Case/Incident.
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+1. Coordinator communicates and confirms permanent solution
+Problem Management
+
+1b Resolve the Problem and await for confirmation
+
+Step 1
+
+Click Resolve to resolve the Problem with proposed permanent solution.
+
+This changes the Problem record’s state to Resolved, with Resolution code as Fix Applied.
+
+The system auto-populates the fields Resolved with the current date and time and Resolved by with the current processor.
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+2. Coordinator Closes the Problem
+Problem Management
+
+Scenario 1: Solution is Accepted
+
+2a Update categorization and relevant information for future reference
+2b Close the Problem record
+
+Step 1
+
+Confirm that the following fields are documented correctly:
+
+a. Component
+
+b. Cause notes
+
+c. Affected area
+
+d. Affected subarea (if applicable)
+
+e. Root cause
+
+f. Subject
+
+g. Description
+
+Finalize and add detailed note of the resolution for future 
+reference in the Resolution information field (if 
+necessary).
+
+Step 2
+
+Click Complete to close the record.
+
+This changes the state to Closed and the record becomes 
+read-only.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+2. Coordinator Closes the Problem
+Problem Management
+
+Scenario 2: Solution is Rejected
+
+2a Reopen the Problem record
+2b Repeat the Problem Management process from validating until the solution has been accepted
+
+Step 1
+
+Click Retrieve to reopen the Problem record.
+
+This changes the state back to Assess and removes the 
+Resolution code that has been auto-populated before.
+
+The system also automatically generates notification email about 
+the state change and sent to the processor that is currently 
+assigned to this record.
+
+Step 2
+
+Follow the WIPS entry for Validate, Prioritize, Categorize and 
+Assign a Problem to re-validate the issue and repeat the Problem 
+Management process until the solution has been accepted.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+Change Log
+Problem Management – Validate and Close a Problem
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Ramya B
+
+July 17,2019
+
+▪ WIPS 4.0 Initial document
+
+2.0.0
+
+Wei Wei
+
+Nov 22, 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Hints and Tips for Problem Management
+At a Glance
+
+What is this document for?
+
+This document provides general hints and tips to simplify your usage of the ServiceNow system. Click any of the tips below to jump to the specific slide and learn how to perform the tasks 
+in a simpler and easier way. Check this out regularly to see more tips!
+
+1. How to assign record?
+
+2. How to find Problems coordinated by you in Agent Workspace?
+
+3. How to find unassigned Problem Tasks in your group in Agent 
+
+Workspace?
+
+4. How to save the list as Favorites in Agent Workspace?
+
+5. How to personalize your saved list in Agent Workspace?
+
+6. How to find unassigned Problem Tasks in your group in UI16?
+
+7. How to save the list as Favorites in UI16?
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+1
+
+Assigning Record
+Problem Management
+
+Hint: How to find unassigned Problems in your group and assign the record in Agent Workspace?
+
+In the case that the Problem is only assigned to the processing group, the processor needs to self-assign himself or others.
+
+Step 1
+
+Step 2
+
+Go to List view and then Problem Module. Select the Unassigned For My Groups 
+tab to open all Problem records assigned to your group but not to individual 
+processors yet. Click on the Problem Number to open the record.
+
+Add your name or other processor’s name to the Assigned to field. 
+
+Click Save to update the record. 
+
+2
+
+1
+
+1
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+2
+
+Creating Personalized List
+Problem Management
+
+Hint: How to find Problems coordinated by you in Agent Workspace?
+
+Step 1
+
+Go to All For My Group list .
+
+Step 2
+
+Click the filter icon on the top right corner to 
+open the filter.
+
+Step 3
+
+Click Advanced view to open the criteria setting.
+
+Step 4
+
+Click AND to add the following criteria:
+
+Problem coordinator is <First Name> <Last 
+Name>
+
+Step 5
+
+Click Update. The list will be filtered based on 
+the defined conditions.
+
+1
+
+4
+
+5
+
+2
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+3
+
+Creating Personalized List
+Problem Management
+
+Hint: How to find unassigned Problem Tasks in your group in Agent Workspace?
+
+Step 1
+
+Go to List view and click My Group’s Work tab under the Tasks 
+module to see all tasks that have been assigned to your 
+assignment group.
+
+Step 2
+
+Click the Filter icon on the top right corner to open the filter.
+
+Step 3
+
+Click Advanced view to open the criteria setting.
+
+Step 4
+
+Click AND to add the following criteria:
+
+Task type is Problem Task.
+
+Step 5
+
+Click Update. The list will be filtered based on the defined 
+conditions.
+
+Notes
+
+You may also save this list under My Lists. 
+Click here to see how to save your favorite 
+lists.
+
+1
+
+2
+
+4
+
+5
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+4
+
+Creating Personalized List
+Problem Management
+
+Hint: How to save the list as Favorites in Agent Workspace?
+
+Step 1
+
+To save this filtered list for future monitoring, 
+click the settings icon and then click Save as.
+
+Step 2
+
+Enter the name of the list in the pop-up window 
+and click Save.
+
+Step 3
+
+The saved list will be displayed under My Lists..
+
+3
+
+2
+
+1
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+5
+
+Creating Personalized List
+Problem Management
+
+Hint: How to personalize your saved list in Agent Workspace?
+
+Step 1
+
+Step 2 Select all necessary fields to be displayed in the list and move up or down the columns according to your needs.
+
+Select the newly created list, click the settings icon and then click Personalize Columns.
+
+Step 3 Click Update to update the list.
+
+2
+
+1
+
+Notes
+
+You may also sort any column is descending or ascending order based on your need. Once 
+sorted, click the settings icon again and then click Save to update the list.
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+6
+
+3
+
+Creating Personalized List
+Problem Management
+
+Hint: How to find unassigned Problem Tasks in your group in UI16?
+
+Step 1
+
+Go to UI16 Platform: https://itsm.services.sap/
+
+In the Application Navigator, select Service Desk and 
+then go to My Groups Work to see all records and tasks 
+assigned to your assignment group.
+
+Step 2
+
+Click the Filter icon on the top left corner to open the filter.
+
+Step 3
+
+Click AND to add the following criteria:
+
+Task type is Problem Task.
+
+Step 4
+
+Click Run to update the new filtering conditions.
+
+2
+
+4
+
+1
+
+3
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+7
+
+Creating Personalized List
+Problem Management
+
+Hint: How to save the list as Favorites in UI16?
+
+Step 1
+
+In the newly created list, click the List Context Menu (the 
+3-line burger icon) title bar next to the list name or right-
+click mouse in the to open the options related to viewing 
+and filtering the entire list.
+
+Step 2
+
+Click Create Favorite icon on the top left corner to open 
+the filter.
+
+Step 3
+
+Enter the list name, select color and icon for the display.
+
+Step 4
+
+Click Done to save this favorite list.
+
+Step 5
+
+The list will be saved under Favorites tab in the Application 
+Navigator.
+
+3
+
+1
+
+2
+
+5
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+8
+
+4
+
+Change Log
+Problem Management – Hints and Tips for Problem Management
+
+Change Log
+
+Version Changed by
+
+Date
+
+Description of changes
+
+1.0.0
+
+Wei Wei
+
+Nov 12 2019
+
+▪ WIPS 4.0 Golden Standard Baseline Document
+
+What is a change log?
+What you are reading is official SAP process documentation. Stringent 
+version control is required for Compliance purposes. Thus, this change 
+log is a record of who made what changes to this content & when, in case 
+further follow up is needed.
+
+Please send any questions or concerns to
+
+Ha Tran, Walldorf
+Process manager
+
+Status
+
+Released
+
+©2019 SAP SE or an SAP affiliate company. All rights reserved.
+
+INTERNAL
+
+WORK INSTRUCTIONS, PROCESSES, SYSTEMS
+
+9
+
+
