@@ -5,11 +5,21 @@
         <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
         <script>
             $SCRIPT_ROOT={{ request.script_root|tojson|safe }};
-            function clickYes(){
-                $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
-            }
-            function clickNo(){
-                $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
+            // function clickYes(){
+            //     $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
+            // }
+            // function clickNo(){
+            //     $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
+            // }
+            function clickQRButton(value){
+                alert('button clicked!');
+                if(value=='Yes'){
+                    $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
+                }else if(value=='No'){
+                    $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
+                }else{
+                    $('input[name="question"]').text(value);
+                }
             }
             $(function(){
                 $("#question_button").click(function(){
@@ -32,9 +42,19 @@
                             }else if(d.type=='quickReplies'){
                                 var content=d.content;
                                 var title=content.title;
+                                title=title.replace('**', '<strong>');
+                                title=title.replace('**', '</strong>');
                                 var buttons=content.buttons;
-                                $('div#conversation_zone').append('<p>Bot: '+title+'<br><button onClick="clickYes()">'+
-                                buttons[0].title+'</button><button onClick="clickNo()">'+buttons[1].title+'</button></p>');
+                                var text='<p>Bot: '+title+'<br><span>';
+                                for(var i=0;i<buttons.length;i++){
+                                    alert(typeof(buttons[i].value)+' '+buttons[i].value);
+                                    text=text+'<button onclick="clickQRButton('+buttons[i].value+')">'+buttons[i].title+'</button>';
+                                }
+                                text=text+'</span></p>';
+                                alert(text);
+                                $('div#conversation_zone').append(text);
+                                // $('div#conversation_zone').append('<p>Bot: '+title+'<br><span><button onClick="clickYes()">'+
+                                // buttons[0].title+'</button><button onClick="clickNo()">'+buttons[1].title+'</button></span></p>');
                             }
                         }
                     });
@@ -46,5 +66,6 @@
         <h1>Conversational AI</h1>
         <div id="conversation_zone"></div>
         <input type="text" name="question"><button id="question_button">ask</button>
+        <button onclick="clickQRButton('Yes')">test clickQRButton</button>
     </body>
 </html>
