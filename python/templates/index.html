@@ -21,7 +21,7 @@
                     $('input[name="question"]').val(value);
                     $('#question_button').click();
                 }
-                $(this).parent().remove();//can not work
+                //$(this).parent().remove();//can not work
             }
             $(function(){
                 $("#question_button").click(function(){
@@ -40,18 +40,18 @@
                                 var content=d.content;
                                 content=content.replace('**','<strong>');
                                 content=content.replace('**','</strong>');
-                                // while(content.indexOf('\n')!=-1){
-                                //     content.replace('\n',"<br>");
-                                // }
+                                while(content.indexOf('\n')!=-1){
+                                    content=content.replace('\n',"<br>");
+                                }
                                 $('div#conversation_zone').append('<p>Bot: '+content+'</p>');
                             }else if(d.type=='quickReplies'){
                                 var content=d.content;
                                 var title=content.title;
                                 title=title.replace('**', '<strong>');
                                 title=title.replace('**', '</strong>');
-                                // while(title.indexOf('\n')!=-1){
-                                //     title.replace('\n',"<br>");
-                                // }
+                                while(title.indexOf('\n')!=-1){
+                                    title=title.replace('\n',"<br>");
+                                }
                                 var buttons=content.buttons;
                                 var text='<p>Bot: '+title+'<br><span>';
                                 for(var i=0;i<buttons.length;i++){
