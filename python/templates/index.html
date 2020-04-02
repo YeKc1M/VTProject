@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>conversational ai</title>
+        <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $SCRIPT_ROOT={{ request.script_root|tojson|safe }};
+            $(function(){
+                $("#question_button").click(function(){
+                    // var text='<p>I: '+data.result+'</p>';
+                    // $('div#conversation_zone').append(text);
+                    text='<p>I: '+$('input[name="question"]').val()+'</p>';
+                    $('div#conversation_zone').append(text);
+                    $.post($SCRIPT_ROOT+'/',{
+                        question: $('input[name="question"]').val()
+                    }, function(data){
+                        alert(data.results);
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Conversational AI</h1>
+        <div id="conversation_zone"></div>
+        <input type="text" name="question"><button id="question_button">ask</button>
+    </body>
+</html>
