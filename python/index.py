@@ -21,7 +21,7 @@ def index():
         for message in messages:
             l.append({'type':message.type,'content':message.content})
         print(l)
-        return jsonify(results=l)
+        return jsonify(l)
     return render_template('index.html')
 
 if __name__=='__main__':

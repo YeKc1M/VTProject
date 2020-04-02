@@ -5,16 +5,38 @@
         <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
         <script>
             $SCRIPT_ROOT={{ request.script_root|tojson|safe }};
+            function clickYes(){
+                $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
+            }
+            function clickNo(){
+                $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
+            }
             $(function(){
                 $("#question_button").click(function(){
                     // var text='<p>I: '+data.result+'</p>';
                     // $('div#conversation_zone').append(text);
-                    text='<p>I: '+$('input[name="question"]').val()+'</p>';
+                    var text='<p>I: '+$('input[name="question"]').val()+'</p>';
                     $('div#conversation_zone').append(text);
                     $.post($SCRIPT_ROOT+'/',{
                         question: $('input[name="question"]').val()
                     }, function(data){
-                        alert(data.results);
+                        //alert(typeof(data)+' '+data);
+                        for(var i=0;i<data.length;i++){
+                            //alert(data[i].type);
+                            var d=data[i];
+                            if(d.type=='text'){
+                                var content=d.content;
+                                content=content.replace('**','<strong>');
+                                content=content.replace('**','</strong>');
+                                $('div#conversation_zone').append('<p>Bot: '+content+'</p>');
+                            }else if(d.type=='quickReplies'){
+                                var content=d.content;
+                                var title=content.title;
+                                var buttons=content.buttons;
+                                $('div#conversation_zone').append('<p>Bot: '+title+'<br><button onClick="clickYes()">'+
+                                buttons[0].title+'</button><button onClick="clickNo()">'+buttons[1].title+'</button></p>');
+                            }
+                        }
                     });
                 });
             });
