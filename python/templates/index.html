@@ -12,14 +12,16 @@
             //     $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
             // }
             function clickQRButton(value){
-                alert('button clicked!');
+                //alert(typeof(value)+' '+value);
                 if(value=='Yes'){
                     $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
                 }else if(value=='No'){
                     $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
                 }else{
-                    $('input[name="question"]').text(value);
+                    $('input[name="question"]').val(value);
+                    $('#question_button').click();
                 }
+                $(this).parent().remove();//can not work
             }
             $(function(){
                 $("#question_button").click(function(){
@@ -38,26 +40,33 @@
                                 var content=d.content;
                                 content=content.replace('**','<strong>');
                                 content=content.replace('**','</strong>');
+                                // while(content.indexOf('\n')!=-1){
+                                //     content.replace('\n',"<br>");
+                                // }
                                 $('div#conversation_zone').append('<p>Bot: '+content+'</p>');
                             }else if(d.type=='quickReplies'){
                                 var content=d.content;
                                 var title=content.title;
                                 title=title.replace('**', '<strong>');
                                 title=title.replace('**', '</strong>');
+                                // while(title.indexOf('\n')!=-1){
+                                //     title.replace('\n',"<br>");
+                                // }
                                 var buttons=content.buttons;
                                 var text='<p>Bot: '+title+'<br><span>';
                                 for(var i=0;i<buttons.length;i++){
-                                    alert(typeof(buttons[i].value)+' '+buttons[i].value);
-                                    text=text+'<button onclick="clickQRButton('+buttons[i].value+')">'+buttons[i].title+'</button>';
+                                    //alert(typeof(buttons[i].value)+' '+buttons[i].value);
+                                    text=text+'<button onclick="clickQRButton('+"'"+buttons[i].value+"'"+')">'+buttons[i].title+'</button>';
                                 }
                                 text=text+'</span></p>';
-                                alert(text);
+                                //alert(text);
                                 $('div#conversation_zone').append(text);
                                 // $('div#conversation_zone').append('<p>Bot: '+title+'<br><span><button onClick="clickYes()">'+
                                 // buttons[0].title+'</button><button onClick="clickNo()">'+buttons[1].title+'</button></span></p>');
                             }
                         }
                     });
+                    $('input[name="question"]').val('');
                 });
             });
         </script>
@@ -66,6 +75,6 @@
         <h1>Conversational AI</h1>
         <div id="conversation_zone"></div>
         <input type="text" name="question"><button id="question_button">ask</button>
-        <button onclick="clickQRButton('Yes')">test clickQRButton</button>
+        <!-- <button onclick="clickQRButton('Yes')">test clickQRButton</button> -->
     </body>
 </html>
