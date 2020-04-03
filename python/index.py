@@ -5,8 +5,9 @@ import sapcai
 
 app=Flask(__name__)
 
-#token d475521f36a9539e5e4d673bf807c3f4
-build=sapcai.Build('d475521f36a9539e5e4d673bf807c3f4', 'en')
+#my_token d475521f36a9539e5e4d673bf807c3f4
+# 98551b428b9e4b717a4470c9fe5e2fd9
+build=sapcai.Build('98551b428b9e4b717a4470c9fe5e2fd9', 'en')
 
 
 @app.route('/', methods=['POST', 'GET'])

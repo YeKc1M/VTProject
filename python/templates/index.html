@@ -11,7 +11,7 @@
             // function clickNo(){
             //     $('div#conversation_zone').append("Sorry, I couldn't find what you were looking for");
             // }
-            function clickQRButton(value){
+            function clickQRButton(value, obj){
                 //alert(typeof(value)+' '+value);
                 if(value=='Yes'){
                     $('div#conversation_zone').append('<p>Bot: Great! Feel free to ask another question</p>');
@@ -21,6 +21,7 @@
                     $('input[name="question"]').val(value);
                     $('#question_button').click();
                 }
+                obj.parentNode.remove();
                 //$(this).parent().remove();//can not work
             }
             $(function(){
@@ -56,7 +57,7 @@
                                 var text='<p>Bot: '+title+'<br><span>';
                                 for(var i=0;i<buttons.length;i++){
                                     //alert(typeof(buttons[i].value)+' '+buttons[i].value);
-                                    text=text+'<button onclick="clickQRButton('+"'"+buttons[i].value+"'"+')">'+buttons[i].title+'</button>';
+                                    text=text+'<button onclick="clickQRButton('+"'"+buttons[i].value+"'"+',this)">'+buttons[i].title+'</button>';
                                 }
                                 text=text+'</span></p>';
                                 //alert(text);
