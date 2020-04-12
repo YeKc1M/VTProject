@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>SAP Servernow platform</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- 登录弹窗 -->
+	<div class="m-mask" style="display:none;"></div>
+	<div class="m-formwrap f-pa" style="display:none;">
+		<div class="m-close f-pa" onclick="closelogin()"></div>
+		<form class="m-form" name="loginForm" method="get" autocomplete="off">
+		  <legend>login to SAP</legend>
+		  <fieldset>
+			<div class="unwrap"><input id="userName" name="userName" placeholder="Username" type="text" class="u-txt" autofocus><br/></div>
+			<div class="pwwrap"><input id="password" name="password" placeholder="Password" type="password" class="u-txt"><br/></div>
+		  </fieldset>
+		  </form>
+		  <div><button name="loginBtn" class="loginBtn" onclick="submit()">login</button></div>
+		  <div class="msg" id="message"></div><!-- 错误提示信息 -->
+	</div>
+
+	<div class="g-hd">
+		<!-- 导航 -->
+		<div class="m-hd f-pr f-cb">
+			<div class="title f-fl"><h1 class="u-title-en f-fl">SAP</h1><span class="f-fl"></span><h1 class="u-title-ch f-fl">Servernow platform</h1></div>
+			<div class="usrAtt f-fl "><div class="usrAttOp f-fl" onclick="loginYN()"><span class="usrAttText">login</span></div></div>
+			<div class="nav f-fr"><a href=""  target="_blank">A1</a><a href=""  target="_blank">A2</a><a href=""  target="_blank">A3</a><a href="" class="search"></a></div>
+		</div>
+	</div>
+	<div class="g-bd">
+		<div class="m-sld f-pr f-cb">
+			<ul class="imgwrap">
+				<a href="" target="_blank"><li id="imgon" class="banner banner0" data-index='0'></li></a>
+				<a href="" target="_blank"><li class="banner banner1" data-index='1'></li></a>
+				<a href="" target="_blank"><li class="banner banner2" data-index='2'></li></a>
+			</ul>
+			<div class="control">
+			<div class="circlewrap f-pr">
+				<span id="on" class="circle" data-index='0'></span>
+				<span id="" class="circle" data-index='1'></span>
+				<span id="" class="circle" data-index='2'></span>
+			</div>
+			</div>
+		</div>
+		<!-- 三个产品 -->
+		<div class="m-snav">
+			<div class="section f-cb f-pr">
+				<div class="block block0 f-fl">
+					<h2>Log an incident</h2>
+					<p>  An incident is created to: Document all information and history of the record to provide service to the internal requestor and external customer;</p><br />
+					<a href=""  target="_blank">To know more ></a>
+				</div>
+				<div class="block f-fl">
+					<h2>Create an incident</h2>
+					<p>Create an incident via case.Create an incident via incident Module</p><br />
+					<a href=""  target="_blank">To know more ></a>
+				</div>
+				<div class="block f-fl">
+					<h2>Incident with Multiple Issues</h2>
+					<p>Each incident record should only contain one issue. If an incident has multiple issues, split the incident into individual incidents with each reporting only one issues.</p><br />
+					<a href=""  target="_blank">To know more ></a>
+				</div>
+			</div>
+		</div>
+		<!-- 内容list -->
+		<div class="g-wrap">
+			<div class="m-list f-cb">
+				<div class="g-main m-courselist f-fl">
+					<div class="m-tab f-cb">
+						<a class="tabselect f-fl" onclick="programList()">B1</a>
+						<a class="tab f-fl" onclick="designList()">B2</a>
+					</div>
+				</div>
+				<div class="g-side f-fl">
+					<div class="m-org"><div class="orgtitle"><p>机构介绍</p></div><div class="orgvideo"><p>观看下面的视频来了解吧：</p><div class="videolink" onclick="playvedio()"><img src="img/videolink.png" class="playicon" width="46px" height="46px" /></div></div></div>
+					<div class="m-top"><div class="toptitle"><p>最热排行</p></div><div class="toplist"><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div><div class="topi"><img src="" width="50px" height="50px" class="f-fl"><div class="topdetail f-fr"><div class="detailtt"><a class="f-thide"></a></div><span class="tophot"></span></div></div></div></div>
+				</div>
+		</div>
+	</div>
+
+     <!-- 底部 -->
+	<div class="g-ft">
+		<div class="m-ftwrap f-pr f-cb">
+			<div class="ftleft f-fl">
+				<div class="title f-cb"><h1 class="u-title-en f-fl">SAP</h1><span class="f-fl"></span><h1 class="u-title-ch f-fl">Servernow platform</h1></div>
+				<p class="cprt">©2020 sapServernow.org 浙ICP备08114786号-1</br>sapServernow.cn 京ICP备12020869号-2 京公网安备110102000459-2</p>
+			</div>
+			<div class="ftright f-fr f-cb">
+				<div class="link f-fl">
+					<p>More links：</p>
+					<a href=""  target="_blank">C1</a></br>
+					<a href=""  target="_blank">C2</a></br>
+					<a href=""  target="_blank">C3</a>
+				</div>
+				<div class="about f-fl">
+					<p>About us：</p>
+					<a href=""  target="_blank">information</a></br>
+					<a href=""  target="_blank">Contact us</a></br>
+					<a href=""  target="_blank">Follow us</a><a href=""  target="_blank" class="atweibo"></a>
+				</div>
+				<div class="more f-fl">
+					<p>More：</p>
+					<a href="http://study.163.com/about/aboutus.htm#/about?aboutType=4"  target="_blank">Common problems</a></br>
+					<a href="http://study.163.com/about/aboutus.htm#/about?aboutType=8"  target="_blank">Advice and suggestion</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/md5.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
